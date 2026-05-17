@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "tle94112esxuma1") (type "KiCad") (uri "/home/joey/work/dev/tilting-maze/pcb/lib/tle94112esxuma1.pretty") (options "") (descr ""))
+)
