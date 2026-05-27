@@ -1,0 +1,1556 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:32 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/joey/.local/flutter/bin/"
+      - "/home/joey/.local/bin/"
+      - "/home/joey/.pyenv/shims/"
+      - "/home/joey/.pyenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/home/joey/.spicetify/"
+      - "/bin/"
+    searched_directories:
+      - "/home/joey/.local/flutter/bin/uname"
+      - "/home/joey/.local/bin/uname"
+      - "/home/joey/.pyenv/shims/uname"
+      - "/home/joey/.pyenv/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/joey/.local/flutter/bin"
+        - "/home/joey/.local/bin"
+        - "/home/joey/.pyenv/shims"
+        - "/home/joey/.pyenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/joey/.spicetify"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      The system is: Linux - 7.0.9-zen2-1-zen - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:32 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/home/joey/.local/flutter/bin/"
+      - "/home/joey/.local/bin/"
+      - "/home/joey/.pyenv/shims/"
+      - "/home/joey/.pyenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/home/joey/.spicetify/"
+    searched_directories:
+      - "/home/joey/.local/flutter/bin/ninja-build"
+      - "/home/joey/.local/flutter/bin/ninja"
+      - "/home/joey/.local/flutter/bin/samu"
+      - "/home/joey/.local/bin/ninja-build"
+      - "/home/joey/.local/bin/ninja"
+      - "/home/joey/.local/bin/samu"
+      - "/home/joey/.pyenv/shims/ninja-build"
+      - "/home/joey/.pyenv/shims/ninja"
+      - "/home/joey/.pyenv/shims/samu"
+      - "/home/joey/.pyenv/bin/ninja-build"
+      - "/home/joey/.pyenv/bin/ninja"
+      - "/home/joey/.pyenv/bin/samu"
+      - "/usr/local/sbin/ninja-build"
+      - "/usr/local/sbin/ninja"
+      - "/usr/local/sbin/samu"
+      - "/usr/local/bin/ninja-build"
+      - "/usr/local/bin/ninja"
+      - "/usr/local/bin/samu"
+      - "/usr/bin/ninja-build"
+    found: "/usr/bin/ninja"
+    search_context:
+      ENV{PATH}:
+        - "/home/joey/.local/flutter/bin"
+        - "/home/joey/.local/bin"
+        - "/home/joey/.pyenv/shims"
+        - "/home/joey/.pyenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/joey/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:32 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/joey/.local/flutter/bin"
+        - "/home/joey/.local/bin"
+        - "/home/joey/.pyenv/shims"
+        - "/home/joey/.pyenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/joey/.spicetify"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /usr/bin/arm-none-eabi-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/stdlib/exit.c:65:(.text.exit+0x28): undefined reference to `_exit'
+      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/reent/closer.c:47:(.text._close_r+0x18): undefined reference to `_close'
+      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/reent/lseekr.c:49:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/reent/readr.c:49:(.text._read_r+0x24): undefined reference to `_read'
+      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/reent/writer.c:49:(.text._write_r+0x24): undefined reference to `_write'
+      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/reent/sbrkr.c:51:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:32 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/joey/.local/flutter/bin"
+        - "/home/joey/.local/bin"
+        - "/home/joey/.pyenv/shims"
+        - "/home/joey/.pyenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/joey/.spicetify"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/arm-none-eabi-gcc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /home/joey/work/dev/tilting-maze/build/CMakeFiles/4.3.3/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:32 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ar"
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/joey/.local/flutter/bin/"
+      - "/home/joey/.local/bin/"
+      - "/home/joey/.pyenv/shims/"
+      - "/home/joey/.pyenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/home/joey/.spicetify/"
+    found: "/usr/bin/arm-none-eabi-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/joey/.local/flutter/bin"
+        - "/home/joey/.local/bin"
+        - "/home/joey/.pyenv/shims"
+        - "/home/joey/.pyenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/joey/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:32 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/joey/.local/flutter/bin/"
+      - "/home/joey/.local/bin/"
+      - "/home/joey/.pyenv/shims/"
+      - "/home/joey/.pyenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/home/joey/.spicetify/"
+    found: "/usr/bin/arm-none-eabi-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/joey/.local/flutter/bin"
+        - "/home/joey/.local/bin"
+        - "/home/joey/.pyenv/shims"
+        - "/home/joey/.pyenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/joey/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:32 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-strip"
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/joey/.local/flutter/bin/"
+      - "/home/joey/.local/bin/"
+      - "/home/joey/.pyenv/shims/"
+      - "/home/joey/.pyenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/home/joey/.spicetify/"
+    found: "/usr/bin/arm-none-eabi-strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/joey/.local/flutter/bin"
+        - "/home/joey/.local/bin"
+        - "/home/joey/.pyenv/shims"
+        - "/home/joey/.pyenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/joey/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:32 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-ld"
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/joey/.local/flutter/bin/"
+      - "/home/joey/.local/bin/"
+      - "/home/joey/.pyenv/shims/"
+      - "/home/joey/.pyenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/home/joey/.spicetify/"
+    found: "/usr/bin/arm-none-eabi-ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/joey/.local/flutter/bin"
+        - "/home/joey/.local/bin"
+        - "/home/joey/.pyenv/shims"
+        - "/home/joey/.pyenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/joey/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:32 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-nm"
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/joey/.local/flutter/bin/"
+      - "/home/joey/.local/bin/"
+      - "/home/joey/.pyenv/shims/"
+      - "/home/joey/.pyenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/home/joey/.spicetify/"
+    found: "/usr/bin/arm-none-eabi-nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/joey/.local/flutter/bin"
+        - "/home/joey/.local/bin"
+        - "/home/joey/.pyenv/shims"
+        - "/home/joey/.pyenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/joey/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:32 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/joey/.local/flutter/bin/"
+      - "/home/joey/.local/bin/"
+      - "/home/joey/.pyenv/shims/"
+      - "/home/joey/.pyenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/home/joey/.spicetify/"
+    found: "/usr/bin/arm-none-eabi-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/joey/.local/flutter/bin"
+        - "/home/joey/.local/bin"
+        - "/home/joey/.pyenv/shims"
+        - "/home/joey/.pyenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/joey/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:32 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/joey/.local/flutter/bin/"
+      - "/home/joey/.local/bin/"
+      - "/home/joey/.pyenv/shims/"
+      - "/home/joey/.pyenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/home/joey/.spicetify/"
+    found: "/usr/bin/arm-none-eabi-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/joey/.local/flutter/bin"
+        - "/home/joey/.local/bin"
+        - "/home/joey/.pyenv/shims"
+        - "/home/joey/.pyenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/joey/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:32 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/joey/.local/flutter/bin/"
+      - "/home/joey/.local/bin/"
+      - "/home/joey/.pyenv/shims/"
+      - "/home/joey/.pyenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/home/joey/.spicetify/"
+    found: "/usr/bin/arm-none-eabi-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/joey/.local/flutter/bin"
+        - "/home/joey/.local/bin"
+        - "/home/joey/.pyenv/shims"
+        - "/home/joey/.pyenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/joey/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:32 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/joey/.local/flutter/bin/"
+      - "/home/joey/.local/bin/"
+      - "/home/joey/.pyenv/shims/"
+      - "/home/joey/.pyenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/home/joey/.spicetify/"
+    searched_directories:
+      - "/usr/bin/arm-none-eabi-dlltool"
+      - "/home/joey/.local/flutter/bin/arm-none-eabi-dlltool"
+      - "/home/joey/.local/bin/arm-none-eabi-dlltool"
+      - "/home/joey/.pyenv/shims/arm-none-eabi-dlltool"
+      - "/home/joey/.pyenv/bin/arm-none-eabi-dlltool"
+      - "/usr/local/sbin/arm-none-eabi-dlltool"
+      - "/usr/local/bin/arm-none-eabi-dlltool"
+      - "/var/lib/flatpak/exports/bin/arm-none-eabi-dlltool"
+      - "/usr/lib/jvm/default/bin/arm-none-eabi-dlltool"
+      - "/usr/bin/site_perl/arm-none-eabi-dlltool"
+      - "/usr/bin/vendor_perl/arm-none-eabi-dlltool"
+      - "/usr/bin/core_perl/arm-none-eabi-dlltool"
+      - "/usr/lib/rustup/bin/arm-none-eabi-dlltool"
+      - "/home/joey/.spicetify/arm-none-eabi-dlltool"
+      - "/usr/bin/dlltool"
+      - "/home/joey/.local/flutter/bin/dlltool"
+      - "/home/joey/.local/bin/dlltool"
+      - "/home/joey/.pyenv/shims/dlltool"
+      - "/home/joey/.pyenv/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/var/lib/flatpak/exports/bin/dlltool"
+      - "/usr/lib/jvm/default/bin/dlltool"
+      - "/usr/bin/site_perl/dlltool"
+      - "/usr/bin/vendor_perl/dlltool"
+      - "/usr/bin/core_perl/dlltool"
+      - "/usr/lib/rustup/bin/dlltool"
+      - "/home/joey/.spicetify/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/joey/.local/flutter/bin"
+        - "/home/joey/.local/bin"
+        - "/home/joey/.pyenv/shims"
+        - "/home/joey/.pyenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/joey/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:32 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/joey/.local/flutter/bin/"
+      - "/home/joey/.local/bin/"
+      - "/home/joey/.pyenv/shims/"
+      - "/home/joey/.pyenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/home/joey/.spicetify/"
+    found: "/usr/bin/arm-none-eabi-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/joey/.local/flutter/bin"
+        - "/home/joey/.local/bin"
+        - "/home/joey/.pyenv/shims"
+        - "/home/joey/.pyenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/joey/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:32 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/joey/.local/flutter/bin/"
+      - "/home/joey/.local/bin/"
+      - "/home/joey/.pyenv/shims/"
+      - "/home/joey/.pyenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/home/joey/.spicetify/"
+    searched_directories:
+      - "/usr/bin/arm-none-eabi-tapi"
+      - "/home/joey/.local/flutter/bin/arm-none-eabi-tapi"
+      - "/home/joey/.local/bin/arm-none-eabi-tapi"
+      - "/home/joey/.pyenv/shims/arm-none-eabi-tapi"
+      - "/home/joey/.pyenv/bin/arm-none-eabi-tapi"
+      - "/usr/local/sbin/arm-none-eabi-tapi"
+      - "/usr/local/bin/arm-none-eabi-tapi"
+      - "/var/lib/flatpak/exports/bin/arm-none-eabi-tapi"
+      - "/usr/lib/jvm/default/bin/arm-none-eabi-tapi"
+      - "/usr/bin/site_perl/arm-none-eabi-tapi"
+      - "/usr/bin/vendor_perl/arm-none-eabi-tapi"
+      - "/usr/bin/core_perl/arm-none-eabi-tapi"
+      - "/usr/lib/rustup/bin/arm-none-eabi-tapi"
+      - "/home/joey/.spicetify/arm-none-eabi-tapi"
+      - "/usr/bin/tapi"
+      - "/home/joey/.local/flutter/bin/tapi"
+      - "/home/joey/.local/bin/tapi"
+      - "/home/joey/.pyenv/shims/tapi"
+      - "/home/joey/.pyenv/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/var/lib/flatpak/exports/bin/tapi"
+      - "/usr/lib/jvm/default/bin/tapi"
+      - "/usr/bin/site_perl/tapi"
+      - "/usr/bin/vendor_perl/tapi"
+      - "/usr/bin/core_perl/tapi"
+      - "/usr/lib/rustup/bin/tapi"
+      - "/home/joey/.spicetify/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/joey/.local/flutter/bin"
+        - "/home/joey/.local/bin"
+        - "/home/joey/.pyenv/shims"
+        - "/home/joey/.pyenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/joey/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:32 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-14.2"
+      - "arm-none-eabi-gcc-ar-14"
+      - "arm-none-eabi-gcc-ar14"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/joey/.local/flutter/bin/"
+      - "/home/joey/.local/bin/"
+      - "/home/joey/.pyenv/shims/"
+      - "/home/joey/.pyenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/home/joey/.spicetify/"
+    searched_directories:
+      - "/usr/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/joey/.local/flutter/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/joey/.local/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/joey/.pyenv/shims/arm-none-eabi-gcc-ar-14.2"
+      - "/home/joey/.pyenv/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/var/lib/flatpak/exports/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/lib/jvm/default/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/joey/.spicetify/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/joey/.local/flutter/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/joey/.local/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/joey/.pyenv/shims/arm-none-eabi-gcc-ar-14"
+      - "/home/joey/.pyenv/bin/arm-none-eabi-gcc-ar-14"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ar-14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-14"
+      - "/var/lib/flatpak/exports/bin/arm-none-eabi-gcc-ar-14"
+      - "/usr/lib/jvm/default/bin/arm-none-eabi-gcc-ar-14"
+      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-14"
+      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14"
+      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14"
+      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/joey/.spicetify/arm-none-eabi-gcc-ar-14"
+      - "/usr/bin/arm-none-eabi-gcc-ar14"
+      - "/home/joey/.local/flutter/bin/arm-none-eabi-gcc-ar14"
+      - "/home/joey/.local/bin/arm-none-eabi-gcc-ar14"
+      - "/home/joey/.pyenv/shims/arm-none-eabi-gcc-ar14"
+      - "/home/joey/.pyenv/bin/arm-none-eabi-gcc-ar14"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ar14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar14"
+      - "/var/lib/flatpak/exports/bin/arm-none-eabi-gcc-ar14"
+      - "/usr/lib/jvm/default/bin/arm-none-eabi-gcc-ar14"
+      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar14"
+      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar14"
+      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar14"
+      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ar14"
+      - "/home/joey/.spicetify/arm-none-eabi-gcc-ar14"
+    found: "/usr/bin/arm-none-eabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/joey/.local/flutter/bin"
+        - "/home/joey/.local/bin"
+        - "/home/joey/.pyenv/shims"
+        - "/home/joey/.pyenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/joey/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:32 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-14.2"
+      - "arm-none-eabi-gcc-ranlib-14"
+      - "arm-none-eabi-gcc-ranlib14"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/joey/.local/flutter/bin/"
+      - "/home/joey/.local/bin/"
+      - "/home/joey/.pyenv/shims/"
+      - "/home/joey/.pyenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/home/joey/.spicetify/"
+    searched_directories:
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/joey/.local/flutter/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/joey/.local/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/joey/.pyenv/shims/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/joey/.pyenv/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/var/lib/flatpak/exports/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/lib/jvm/default/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/joey/.spicetify/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/joey/.local/flutter/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/joey/.local/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/joey/.pyenv/shims/arm-none-eabi-gcc-ranlib-14"
+      - "/home/joey/.pyenv/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/var/lib/flatpak/exports/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/lib/jvm/default/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/joey/.spicetify/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib14"
+      - "/home/joey/.local/flutter/bin/arm-none-eabi-gcc-ranlib14"
+      - "/home/joey/.local/bin/arm-none-eabi-gcc-ranlib14"
+      - "/home/joey/.pyenv/shims/arm-none-eabi-gcc-ranlib14"
+      - "/home/joey/.pyenv/bin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib14"
+      - "/var/lib/flatpak/exports/bin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/lib/jvm/default/bin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib14"
+      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib14"
+      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib14"
+      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ranlib14"
+      - "/home/joey/.spicetify/arm-none-eabi-gcc-ranlib14"
+    found: "/usr/bin/arm-none-eabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/joey/.local/flutter/bin"
+        - "/home/joey/.local/bin"
+        - "/home/joey/.pyenv/shims"
+        - "/home/joey/.pyenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/joey/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:32 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/joey/.local/flutter/bin"
+        - "/home/joey/.local/bin"
+        - "/home/joey/.pyenv/shims"
+        - "/home/joey/.pyenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/joey/.spicetify"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/stdlib/exit.c:65:(.text.exit+0x28): undefined reference to `_exit'
+      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/reent/closer.c:47:(.text._close_r+0x18): undefined reference to `_close'
+      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/reent/lseekr.c:49:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/reent/readr.c:49:(.text._read_r+0x24): undefined reference to `_read'
+      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/reent/writer.c:49:(.text._write_r+0x24): undefined reference to `_write'
+      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/reent/sbrkr.c:51:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:32 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/joey/.local/flutter/bin"
+        - "/home/joey/.local/bin"
+        - "/home/joey/.pyenv/shims"
+        - "/home/joey/.pyenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/joey/.spicetify"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:32 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/joey/work/dev/tilting-maze/build/CMakeFiles/4.3.3/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:32 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-14.2"
+      - "arm-none-eabi-gcc-ar-14"
+      - "arm-none-eabi-gcc-ar14"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/joey/.local/flutter/bin/"
+      - "/home/joey/.local/bin/"
+      - "/home/joey/.pyenv/shims/"
+      - "/home/joey/.pyenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/home/joey/.spicetify/"
+    searched_directories:
+      - "/usr/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/joey/.local/flutter/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/joey/.local/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/joey/.pyenv/shims/arm-none-eabi-gcc-ar-14.2"
+      - "/home/joey/.pyenv/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/var/lib/flatpak/exports/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/lib/jvm/default/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/joey/.spicetify/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/joey/.local/flutter/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/joey/.local/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/joey/.pyenv/shims/arm-none-eabi-gcc-ar-14"
+      - "/home/joey/.pyenv/bin/arm-none-eabi-gcc-ar-14"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ar-14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-14"
+      - "/var/lib/flatpak/exports/bin/arm-none-eabi-gcc-ar-14"
+      - "/usr/lib/jvm/default/bin/arm-none-eabi-gcc-ar-14"
+      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-14"
+      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14"
+      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14"
+      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/joey/.spicetify/arm-none-eabi-gcc-ar-14"
+      - "/usr/bin/arm-none-eabi-gcc-ar14"
+      - "/home/joey/.local/flutter/bin/arm-none-eabi-gcc-ar14"
+      - "/home/joey/.local/bin/arm-none-eabi-gcc-ar14"
+      - "/home/joey/.pyenv/shims/arm-none-eabi-gcc-ar14"
+      - "/home/joey/.pyenv/bin/arm-none-eabi-gcc-ar14"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ar14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar14"
+      - "/var/lib/flatpak/exports/bin/arm-none-eabi-gcc-ar14"
+      - "/usr/lib/jvm/default/bin/arm-none-eabi-gcc-ar14"
+      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar14"
+      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar14"
+      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar14"
+      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ar14"
+      - "/home/joey/.spicetify/arm-none-eabi-gcc-ar14"
+    found: "/usr/bin/arm-none-eabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/joey/.local/flutter/bin"
+        - "/home/joey/.local/bin"
+        - "/home/joey/.pyenv/shims"
+        - "/home/joey/.pyenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/joey/.spicetify"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:32 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-14.2"
+      - "arm-none-eabi-gcc-ranlib-14"
+      - "arm-none-eabi-gcc-ranlib14"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/joey/.local/flutter/bin/"
+      - "/home/joey/.local/bin/"
+      - "/home/joey/.pyenv/shims/"
+      - "/home/joey/.pyenv/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/home/joey/.spicetify/"
+    searched_directories:
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/joey/.local/flutter/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/joey/.local/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/joey/.pyenv/shims/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/joey/.pyenv/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/var/lib/flatpak/exports/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/lib/jvm/default/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/joey/.spicetify/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/joey/.local/flutter/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/joey/.local/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/joey/.pyenv/shims/arm-none-eabi-gcc-ranlib-14"
+      - "/home/joey/.pyenv/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/var/lib/flatpak/exports/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/lib/jvm/default/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/joey/.spicetify/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib14"
+      - "/home/joey/.local/flutter/bin/arm-none-eabi-gcc-ranlib14"
+      - "/home/joey/.local/bin/arm-none-eabi-gcc-ranlib14"
+      - "/home/joey/.pyenv/shims/arm-none-eabi-gcc-ranlib14"
+      - "/home/joey/.pyenv/bin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib14"
+      - "/var/lib/flatpak/exports/bin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/lib/jvm/default/bin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib14"
+      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib14"
+      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib14"
+      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ranlib14"
+      - "/home/joey/.spicetify/arm-none-eabi-gcc-ranlib14"
+    found: "/usr/bin/arm-none-eabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/joey/.local/flutter/bin"
+        - "/home/joey/.local/bin"
+        - "/home/joey/.pyenv/shims"
+        - "/home/joey/.pyenv/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/joey/.spicetify"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:32 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/joey/work/dev/tilting-maze/build/CMakeFiles/CMakeScratch/TryCompile-FB9jaA"
+      binary: "/home/joey/work/dev/tilting-maze/build/CMakeFiles/CMakeScratch/TryCompile-FB9jaA"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/joey/work/dev/tilting-maze/build/CMakeFiles/CMakeScratch/TryCompile-FB9jaA'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_9c9bf
+        [1/2] /usr/bin/arm-none-eabi-gcc   -std=gnu11   -v -o CMakeFiles/cmTC_9c9bf.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/arm-none-eabi-gcc
+        Target: arm-none-eabi
+        Configured with: /build/arm-none-eabi-gcc/src/gcc-14.2.0/configure --target=arm-none-eabi --prefix=/usr --with-sysroot=/usr/arm-none-eabi --with-native-system-header-dir=/include --libexecdir=/usr/lib --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-system-zlib --with-newlib --with-headers=/usr/arm-none-eabi/include --with-python-dir=share/gcc-arm-none-eabi --with-gmp --with-mpfr --with-mpc --with-isl --with-libelf --enable-gnu-indirect-function --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='Arch Repository' --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/arm-none-eabi-gcc/-/issues --with-multilib-list=rmprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (Arch Repository) 
+        COLLECT_GCC_OPTIONS='-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_9c9bf.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_9c9bf.dir/'
+         /usr/lib/gcc/arm-none-eabi/14.2.0/cc1 -quiet -v -D__USES_INITFINI__ /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9c9bf.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -std=gnu11 -version -o /tmp/ccxDdVv1.s
+        GNU C11 (Arch Repository) version 14.2.0 (arm-none-eabi)
+        	compiled by GNU C version 15.2.1 20260103, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        warning: MPC header version 1.3.1 differs from library version 1.4.1.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/usr/arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/arm-none-eabi/14.2.0/include
+         /usr/lib/gcc/arm-none-eabi/14.2.0/include-fixed
+         /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: f03e347ed6168f27831183b80b99e28f
+        COLLECT_GCC_OPTIONS='-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_9c9bf.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_9c9bf.dir/'
+         /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_9c9bf.dir/CMakeCCompilerABI.c.o /tmp/ccxDdVv1.s
+        GNU assembler version 2.43 (arm-none-eabi) using BFD version (GNU Binutils) 2.43
+        COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/:/usr/arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_9c9bf.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_9c9bf.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /usr/bin/arm-none-eabi-gcc  -v -Wl,-v CMakeFiles/cmTC_9c9bf.dir/CMakeCCompilerABI.c.o -o cmTC_9c9bf   && :
+        FAILED: [code=1] cmTC_9c9bf 
+        : && /usr/bin/arm-none-eabi-gcc  -v -Wl,-v CMakeFiles/cmTC_9c9bf.dir/CMakeCCompilerABI.c.o -o cmTC_9c9bf   && :
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/arm-none-eabi-gcc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-none-eabi/14.2.0/lto-wrapper
+        Target: arm-none-eabi
+        Configured with: /build/arm-none-eabi-gcc/src/gcc-14.2.0/configure --target=arm-none-eabi --prefix=/usr --with-sysroot=/usr/arm-none-eabi --with-native-system-header-dir=/include --libexecdir=/usr/lib --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-system-zlib --with-newlib --with-headers=/usr/arm-none-eabi/include --with-python-dir=share/gcc-arm-none-eabi --with-gmp --with-mpfr --with-mpc --with-isl --with-libelf --enable-gnu-indirect-function --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='Arch Repository' --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/arm-none-eabi-gcc/-/issues --with-multilib-list=rmprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (Arch Repository) 
+        COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/:/usr/arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9c9bf' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'cmTC_9c9bf.'
+         /usr/lib/gcc/arm-none-eabi/14.2.0/collect2 -plugin /usr/lib/gcc/arm-none-eabi/14.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjt5x8t.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/usr/arm-none-eabi -X -o cmTC_9c9bf /usr/lib/gcc/arm-none-eabi/14.2.0/crti.o /usr/lib/gcc/arm-none-eabi/14.2.0/crtbegin.o /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/crt0.o -L/usr/lib/gcc/arm-none-eabi/14.2.0 -L/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib -L/usr/arm-none-eabi/lib -v CMakeFiles/cmTC_9c9bf.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lc --end-group /usr/lib/gcc/arm-none-eabi/14.2.0/crtend.o /usr/lib/gcc/arm-none-eabi/14.2.0/crtn.o
+        collect2 version 14.2.0
+        /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld -plugin /usr/lib/gcc/arm-none-eabi/14.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjt5x8t.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/usr/arm-none-eabi -X -o cmTC_9c9bf /usr/lib/gcc/arm-none-eabi/14.2.0/crti.o /usr/lib/gcc/arm-none-eabi/14.2.0/crtbegin.o /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/crt0.o -L/usr/lib/gcc/arm-none-eabi/14.2.0 -L/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib -L/usr/arm-none-eabi/lib -v CMakeFiles/cmTC_9c9bf.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lc --end-group /usr/lib/gcc/arm-none-eabi/14.2.0/crtend.o /usr/lib/gcc/arm-none-eabi/14.2.0/crtn.o
+        GNU ld (GNU Binutils) 2.43
+        /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+        /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/stdlib/exit.c:65:(.text.exit+0x28): undefined reference to `_exit'
+        /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+        /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/reent/closer.c:47:(.text._close_r+0x18): undefined reference to `_close'
+        /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+        /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/reent/lseekr.c:49:(.text._lseek_r+0x24): undefined reference to `_lseek'
+        /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+        /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/reent/readr.c:49:(.text._read_r+0x24): undefined reference to `_read'
+        /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+        /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/reent/writer.c:49:(.text._write_r+0x24): undefined reference to `_write'
+        /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+        /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/reent/sbrkr.c:51:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:32 (project)"
+    checks:
+      - "Check for working C compiler: /usr/bin/arm-none-eabi-gcc"
+    directories:
+      source: "/home/joey/work/dev/tilting-maze/build/CMakeFiles/CMakeScratch/TryCompile-d7DKp7"
+      binary: "/home/joey/work/dev/tilting-maze/build/CMakeFiles/CMakeScratch/TryCompile-d7DKp7"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/joey/work/dev/tilting-maze/build/CMakeFiles/CMakeScratch/TryCompile-d7DKp7'
+        
+        Run Build Command(s): /usr/bin/ninja -v cmTC_52c02
+        [1/2] /usr/bin/arm-none-eabi-gcc   -std=gnu11 -o CMakeFiles/cmTC_52c02.dir/testCCompiler.c.o -c /home/joey/work/dev/tilting-maze/build/CMakeFiles/CMakeScratch/TryCompile-d7DKp7/testCCompiler.c
+        [2/2] : && /usr/bin/arm-none-eabi-gcc   CMakeFiles/cmTC_52c02.dir/testCCompiler.c.o -o cmTC_52c02   && :
+        FAILED: [code=1] cmTC_52c02 
+        : && /usr/bin/arm-none-eabi-gcc   CMakeFiles/cmTC_52c02.dir/testCCompiler.c.o -o cmTC_52c02   && :
+        /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+        /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/stdlib/exit.c:65:(.text.exit+0x28): undefined reference to `_exit'
+        /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+        /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/reent/closer.c:47:(.text._close_r+0x18): undefined reference to `_close'
+        /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+        /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/reent/lseekr.c:49:(.text._lseek_r+0x24): undefined reference to `_lseek'
+        /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+        /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/reent/readr.c:49:(.text._read_r+0x24): undefined reference to `_read'
+        /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+        /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/reent/writer.c:49:(.text._write_r+0x24): undefined reference to `_write'
+        /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+        /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/newlib/../../../newlib-4.5.0.20241231/newlib/libc/reent/sbrkr.c:51:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
