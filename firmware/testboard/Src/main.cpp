@@ -1,8 +1,6 @@
 #include "main.h"
 #include "setup.h"
 
-/* Private function prototypes */
-
 extern "C" int main(void)
 {
 	HAL_Init();
