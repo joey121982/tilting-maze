@@ -48,13 +48,19 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
-    # Add user sources here
-    # Example: Src/YourSpiDevice.cpp
+    # clock + GPIO setup
+    Src/setup.c
+
+    # driverele de motor
+    Src/drivers/spi1.cpp
+    Src/drivers/tle94112.cpp
+    Src/drivers/stepper_motor.cpp
+    Src/drivers/button.cpp
 )
 
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
-    # Add user defined include paths
+    Inc
 )
 
 # Add project symbols (macros)
