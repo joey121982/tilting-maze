@@ -142,6 +142,102 @@ STM32_Drivers/fast:
 	$(MAKE) $(MAKESILENT) -f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build.make cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/build
 .PHONY : STM32_Drivers/fast
 
+Src/drivers/button.o: Src/drivers/button.cpp.o
+.PHONY : Src/drivers/button.o
+
+# target to build an object file
+Src/drivers/button.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testboard.dir/build.make CMakeFiles/testboard.dir/Src/drivers/button.cpp.o
+.PHONY : Src/drivers/button.cpp.o
+
+Src/drivers/button.i: Src/drivers/button.cpp.i
+.PHONY : Src/drivers/button.i
+
+# target to preprocess a source file
+Src/drivers/button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testboard.dir/build.make CMakeFiles/testboard.dir/Src/drivers/button.cpp.i
+.PHONY : Src/drivers/button.cpp.i
+
+Src/drivers/button.s: Src/drivers/button.cpp.s
+.PHONY : Src/drivers/button.s
+
+# target to generate assembly for a file
+Src/drivers/button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testboard.dir/build.make CMakeFiles/testboard.dir/Src/drivers/button.cpp.s
+.PHONY : Src/drivers/button.cpp.s
+
+Src/drivers/spi1.o: Src/drivers/spi1.cpp.o
+.PHONY : Src/drivers/spi1.o
+
+# target to build an object file
+Src/drivers/spi1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testboard.dir/build.make CMakeFiles/testboard.dir/Src/drivers/spi1.cpp.o
+.PHONY : Src/drivers/spi1.cpp.o
+
+Src/drivers/spi1.i: Src/drivers/spi1.cpp.i
+.PHONY : Src/drivers/spi1.i
+
+# target to preprocess a source file
+Src/drivers/spi1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testboard.dir/build.make CMakeFiles/testboard.dir/Src/drivers/spi1.cpp.i
+.PHONY : Src/drivers/spi1.cpp.i
+
+Src/drivers/spi1.s: Src/drivers/spi1.cpp.s
+.PHONY : Src/drivers/spi1.s
+
+# target to generate assembly for a file
+Src/drivers/spi1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testboard.dir/build.make CMakeFiles/testboard.dir/Src/drivers/spi1.cpp.s
+.PHONY : Src/drivers/spi1.cpp.s
+
+Src/drivers/stepper_motor.o: Src/drivers/stepper_motor.cpp.o
+.PHONY : Src/drivers/stepper_motor.o
+
+# target to build an object file
+Src/drivers/stepper_motor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testboard.dir/build.make CMakeFiles/testboard.dir/Src/drivers/stepper_motor.cpp.o
+.PHONY : Src/drivers/stepper_motor.cpp.o
+
+Src/drivers/stepper_motor.i: Src/drivers/stepper_motor.cpp.i
+.PHONY : Src/drivers/stepper_motor.i
+
+# target to preprocess a source file
+Src/drivers/stepper_motor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testboard.dir/build.make CMakeFiles/testboard.dir/Src/drivers/stepper_motor.cpp.i
+.PHONY : Src/drivers/stepper_motor.cpp.i
+
+Src/drivers/stepper_motor.s: Src/drivers/stepper_motor.cpp.s
+.PHONY : Src/drivers/stepper_motor.s
+
+# target to generate assembly for a file
+Src/drivers/stepper_motor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testboard.dir/build.make CMakeFiles/testboard.dir/Src/drivers/stepper_motor.cpp.s
+.PHONY : Src/drivers/stepper_motor.cpp.s
+
+Src/drivers/tle94112.o: Src/drivers/tle94112.cpp.o
+.PHONY : Src/drivers/tle94112.o
+
+# target to build an object file
+Src/drivers/tle94112.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testboard.dir/build.make CMakeFiles/testboard.dir/Src/drivers/tle94112.cpp.o
+.PHONY : Src/drivers/tle94112.cpp.o
+
+Src/drivers/tle94112.i: Src/drivers/tle94112.cpp.i
+.PHONY : Src/drivers/tle94112.i
+
+# target to preprocess a source file
+Src/drivers/tle94112.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testboard.dir/build.make CMakeFiles/testboard.dir/Src/drivers/tle94112.cpp.i
+.PHONY : Src/drivers/tle94112.cpp.i
+
+Src/drivers/tle94112.s: Src/drivers/tle94112.cpp.s
+.PHONY : Src/drivers/tle94112.s
+
+# target to generate assembly for a file
+Src/drivers/tle94112.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testboard.dir/build.make CMakeFiles/testboard.dir/Src/drivers/tle94112.cpp.s
+.PHONY : Src/drivers/tle94112.cpp.s
+
 Src/main.o: Src/main.cpp.o
 .PHONY : Src/main.o
 
@@ -165,6 +261,30 @@ Src/main.s: Src/main.cpp.s
 Src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testboard.dir/build.make CMakeFiles/testboard.dir/Src/main.cpp.s
 .PHONY : Src/main.cpp.s
+
+Src/setup.o: Src/setup.c.o
+.PHONY : Src/setup.o
+
+# target to build an object file
+Src/setup.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testboard.dir/build.make CMakeFiles/testboard.dir/Src/setup.c.o
+.PHONY : Src/setup.c.o
+
+Src/setup.i: Src/setup.c.i
+.PHONY : Src/setup.i
+
+# target to preprocess a source file
+Src/setup.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testboard.dir/build.make CMakeFiles/testboard.dir/Src/setup.c.i
+.PHONY : Src/setup.c.i
+
+Src/setup.s: Src/setup.c.s
+.PHONY : Src/setup.s
+
+# target to generate assembly for a file
+Src/setup.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testboard.dir/build.make CMakeFiles/testboard.dir/Src/setup.c.s
+.PHONY : Src/setup.c.s
 
 Src/stm32f1xx_hal_msp.o: Src/stm32f1xx_hal_msp.c.o
 .PHONY : Src/stm32f1xx_hal_msp.o
@@ -280,9 +400,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... STM32_Drivers"
 	@echo "... testboard"
+	@echo "... Src/drivers/button.o"
+	@echo "... Src/drivers/button.i"
+	@echo "... Src/drivers/button.s"
+	@echo "... Src/drivers/spi1.o"
+	@echo "... Src/drivers/spi1.i"
+	@echo "... Src/drivers/spi1.s"
+	@echo "... Src/drivers/stepper_motor.o"
+	@echo "... Src/drivers/stepper_motor.i"
+	@echo "... Src/drivers/stepper_motor.s"
+	@echo "... Src/drivers/tle94112.o"
+	@echo "... Src/drivers/tle94112.i"
+	@echo "... Src/drivers/tle94112.s"
 	@echo "... Src/main.o"
 	@echo "... Src/main.i"
 	@echo "... Src/main.s"
+	@echo "... Src/setup.o"
+	@echo "... Src/setup.i"
+	@echo "... Src/setup.s"
 	@echo "... Src/stm32f1xx_hal_msp.o"
 	@echo "... Src/stm32f1xx_hal_msp.i"
 	@echo "... Src/stm32f1xx_hal_msp.s"

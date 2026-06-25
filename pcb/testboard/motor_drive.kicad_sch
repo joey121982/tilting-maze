@@ -268,398 +268,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "EWH1EV101E11OT:EWH1EV101E11OT"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 8.89 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "EWH1EV101E11OT"
-				(at 8.89 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "CAPPRD250W50D655H1300"
-				(at 8.89 -96.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.aishi.com/files/WH.pdf"
-				(at 8.89 -196.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "Electrolytic Capacitor, THT, 100 uF, 25 V, 6.3 x 11 mm, +/-20%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "13"
-				(at 8.89 -396.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "TME Electronic Components Part Number" ""
-				(at 8.89 -496.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "TME Electronic Components Price/Stock" ""
-				(at 8.89 -596.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Aishi"
-				(at 8.89 -696.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "EWH1EV101E11OT"
-				(at 8.89 -796.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "EWH1EV101E11OT_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.064 1.778) (xy 4.064 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 1.27) (xy 3.556 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 2.54)
-					(end 5.842 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 10.16 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TLE94112ESXUMA1:TLE94112ESXUMA1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1517,12 +1125,6 @@
 		(uuid "ef83f9ef-e022-4e13-ab7c-c1c99a7c22fa")
 	)
 	(junction
-		(at 124.46 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d0f5888-cf17-420c-8b9b-f7673fc47ab1")
-	)
-	(junction
 		(at 130.81 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1534,24 +1136,6 @@
 		(color 0 0 0 0)
 		(uuid "7f4d4d9b-2d9f-4aaf-a1d9-08633c094184")
 	)
-	(junction
-		(at 217.17 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93c0ac34-1fdd-45c9-8a7f-35f6f78501ad")
-	)
-	(junction
-		(at 217.17 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd63fb0b-f531-49b5-9ac6-0b4b2aea8f24")
-	)
-	(junction
-		(at 217.17 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca5ec345-8870-4210-ab3f-87a6f4c3507e")
-	)
 	(wire
 		(pts
 			(xy 204.47 80.01) (xy 215.9 80.01)
@@ -1561,26 +1145,6 @@
 			(type default)
 		)
 		(uuid "01ceef94-1055-4cea-aeb5-44950e109c60")
-	)
-	(wire
-		(pts
-			(xy 120.65 116.84) (xy 124.46 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a0f2797-ffa8-4305-8a2b-dccd1f74e0b4")
-	)
-	(wire
-		(pts
-			(xy 217.17 115.57) (xy 223.52 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e8850b7-402f-495c-8144-123b9706b875")
 	)
 	(wire
 		(pts
@@ -1604,16 +1168,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 109.22) (xy 217.17 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23b8ea92-9753-4e4f-928c-c5514c4aa63e")
-	)
-	(wire
-		(pts
 			(xy 177.8 109.22) (xy 189.23 109.22)
 		)
 		(stroke
@@ -1634,7 +1188,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 116.84) (xy 130.81 116.84)
+			(xy 120.65 116.84) (xy 130.81 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1794,26 +1348,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 109.22) (xy 227.33 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93da1968-c677-4672-a79a-cae486f50793")
-	)
-	(wire
-		(pts
-			(xy 210.82 134.62) (xy 217.17 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e605d7c-6ac2-4514-a374-18c5a1e3a31a")
-	)
-	(wire
-		(pts
 			(xy 129.54 104.14) (xy 142.24 104.14)
 		)
 		(stroke
@@ -1904,16 +1438,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 130.81) (xy 210.82 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b414dd4a-2664-4f0b-b2e4-af6389573e50")
-	)
-	(wire
-		(pts
 			(xy 106.68 73.66) (xy 119.38 73.66)
 		)
 		(stroke
@@ -1924,17 +1448,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 118.11) (xy 210.82 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9f14936-9ca9-477f-92bc-3c54b6e07e6c")
-	)
-	(wire
-		(pts
-			(xy 201.93 109.22) (xy 217.17 109.22)
+			(xy 135.89 128.27) (xy 120.65 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1974,26 +1488,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 115.57) (xy 223.52 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c95dfe66-1a7c-4e90-8470-7406d994eda1")
-	)
-	(wire
-		(pts
-			(xy 217.17 134.62) (xy 217.17 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbe06496-50fa-4762-8385-40e98297db33")
-	)
-	(wire
-		(pts
 			(xy 160.02 129.54) (xy 161.29 129.54)
 		)
 		(stroke
@@ -2011,16 +1505,6 @@
 			(type default)
 		)
 		(uuid "d2e24b1c-8bc0-41c4-9a05-f758c2b1046f")
-	)
-	(wire
-		(pts
-			(xy 217.17 134.62) (xy 223.52 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dac93685-297b-4e99-a8b6-431e75356f74")
 	)
 	(wire
 		(pts
@@ -2064,16 +1548,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 115.57) (xy 217.17 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed05c66f-47f1-448e-bea1-74add0369b9b")
-	)
-	(wire
-		(pts
 			(xy 129.54 109.22) (xy 142.24 109.22)
 		)
 		(stroke
@@ -2114,16 +1588,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 119.38) (xy 124.46 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f57aa2cb-a46d-4d04-b8b4-06e30d3b61ff")
-	)
-	(wire
-		(pts
 			(xy 129.54 99.06) (xy 142.24 99.06)
 		)
 		(stroke
@@ -2134,16 +1598,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 127) (xy 124.46 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f836e585-7cf3-41bd-9f41-b2d35650d2fe")
-	)
-	(wire
-		(pts
 			(xy 106.68 86.36) (xy 119.38 86.36)
 		)
 		(stroke
@@ -2151,16 +1605,6 @@
 			(type default)
 		)
 		(uuid "f95e93af-289f-4a55-b5dd-36ef1b2d519e")
-	)
-	(wire
-		(pts
-			(xy 223.52 128.27) (xy 223.52 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9ba1b12-7fd8-4469-aff3-bfae95246bbd")
 	)
 	(wire
 		(pts
@@ -2533,12 +1977,12 @@
 		(uuid "db8c8f8d-73c2-48e6-ba5e-aa9012c36123")
 	)
 	(label "VS"
-		(at 201.93 109.22 0)
+		(at 135.89 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e3864f3d-d141-441d-9b12-0fb2ea688d95")
 	)
@@ -2636,12 +2080,12 @@
 	)
 	(hierarchical_label "9V"
 		(shape input)
-		(at 227.33 109.22 0)
+		(at 120.65 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a469c25f-985e-4537-945c-a61e71bff356")
 	)
@@ -2690,88 +2134,6 @@
 		(uuid "dc3b107d-b3b0-4f7b-bec5-8cd5b3daf749")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 124.46 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "001026f0-6ca5-4d6a-976e-c9de41c03dfb")
-		(property "Reference" "#PWR02"
-			(at 124.46 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "febbcbec-e7b2-4c2c-92ba-68981278131f")
-		)
-		(instances
-			(project "testboard"
-				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91"
-					(reference "#PWR02")
-					(unit 1)
-				)
-				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91/35b17c37-0116-4a0d-94e8-be72844c357d"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 101.6 100.33 0)
 		(unit 1)
@@ -2802,7 +2164,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical"
 			(at 101.6 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2849,10 +2211,6 @@
 		)
 		(instances
 			(project "testboard"
-				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91"
-					(reference "J3")
-					(unit 1)
-				)
 				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91/35b17c37-0116-4a0d-94e8-be72844c357d"
 					(reference "J5")
 					(unit 1)
@@ -2891,7 +2249,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical"
 			(at 101.6 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2938,10 +2296,6 @@
 		)
 		(instances
 			(project "testboard"
-				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91"
-					(reference "J1")
-					(unit 1)
-				)
 				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91/35b17c37-0116-4a0d-94e8-be72844c357d"
 					(reference "J3")
 					(unit 1)
@@ -3153,180 +2507,8 @@
 		)
 		(instances
 			(project "testboard"
-				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91"
-					(reference "IC1")
-					(unit 1)
-				)
 				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91/35b17c37-0116-4a0d-94e8-be72844c357d"
 					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 223.52 124.46 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d13ea9a-e368-4d3e-b6bf-c16c52b3bae3")
-		(property "Reference" "C3"
-			(at 227.33 123.1899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 227.33 125.7299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 222.5548 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 223.52 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a6c7ff00-395f-4208-a260-b899d2ce909b")
-		)
-		(pin "1"
-			(uuid "77e21bd3-b4e9-4006-991e-85d7e2dafe03")
-		)
-		(instances
-			(project "testboard"
-				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91"
-					(reference "C2")
-					(unit 1)
-				)
-				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91/35b17c37-0116-4a0d-94e8-be72844c357d"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 217.17 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a60b8ac0-5a55-4990-ad01-e0d2023b5e4e")
-		(property "Reference" "#PWR03"
-			(at 217.17 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.17 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "48671c71-1af8-42d8-944a-fc539dad7826")
-		)
-		(instances
-			(project "testboard"
-				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91"
-					(reference "#PWR03")
-					(unit 1)
-				)
-				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91/35b17c37-0116-4a0d-94e8-be72844c357d"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3363,7 +2545,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical"
 			(at 101.6 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3410,244 +2592,8 @@
 		)
 		(instances
 			(project "testboard"
-				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91"
-					(reference "J2")
-					(unit 1)
-				)
 				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91/35b17c37-0116-4a0d-94e8-be72844c357d"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EWH1EV101E11OT:EWH1EV101E11OT")
-		(at 210.82 118.11 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dd472b3a-2a55-4958-b55c-c674c224aa3a")
-		(property "Reference" "C2"
-			(at 203.2 122.682 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 201.168 125.222 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CAPPRD250W50D655H1300"
-			(at 114.63 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.aishi.com/files/WH.pdf"
-			(at 14.63 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Electrolytic Capacitor, THT, 100 uF, 25 V, 6.3 x 11 mm, +/-20%"
-			(at 210.82 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "13"
-			(at -185.37 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "TME Electronic Components Part Number" ""
-			(at -285.37 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "TME Electronic Components Price/Stock" ""
-			(at -385.37 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Aishi"
-			(at -485.37 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "EWH1EV101E11OT"
-			(at -585.37 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "1587a093-9e9f-46df-8d12-43d7206fe271")
-		)
-		(pin "1"
-			(uuid "bdc2ee4b-97c8-4876-b41a-e4bc07ec6065")
-		)
-		(instances
-			(project "testboard"
-				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91"
-					(reference "C4")
-					(unit 1)
-				)
-				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91/35b17c37-0116-4a0d-94e8-be72844c357d"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 124.46 123.19 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e8e1664f-db31-47a0-bddc-d6a5f37b9e48")
-		(property "Reference" "C1"
-			(at 115.316 122.428 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 115.316 124.968 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 123.4948 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 124.46 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b9a29e0b-c542-401c-abd2-b6b20f5813f3")
-		)
-		(pin "2"
-			(uuid "3838e115-ec46-49b7-af90-c169e7dee953")
-		)
-		(instances
-			(project "testboard"
-				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91"
-					(reference "C3")
-					(unit 1)
-				)
-				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91/35b17c37-0116-4a0d-94e8-be72844c357d"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3724,10 +2670,6 @@
 		)
 		(instances
 			(project "testboard"
-				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91"
-					(reference "#PWR01")
-					(unit 1)
-				)
 				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91/35b17c37-0116-4a0d-94e8-be72844c357d"
 					(reference "#PWR01")
 					(unit 1)

@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model AP63203WU-7
+#/1863283/2066867/2.50/6/2/Integrated Circuit
+DEF AP63203WU-7 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "AP63203WU-7" 850 200 50 H V L CNN
+F2 "AP63203WU7" 850 100 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf" 850 0 50 H I L CNN
+F4 "Switching Voltage Regulators DCDC Conv HV Buck TSOT26 T&R 3K" 850 -100 50 H I L CNN "Description"
+F5 "1" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "TME Electronic Components Part Number"
+F7 "" 850 -400 50 H I L CNN "TME Electronic Components Price/Stock"
+F8 "Diodes Incorporated" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AP63203WU-7" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X FB 1 0 0 200 R 50 50 0 0 P
+X EN 2 0 -100 200 R 50 50 0 0 P
+X VIN 3 0 -200 200 R 50 50 0 0 P
+X GND 4 1000 -200 200 L 50 50 0 0 P
+X SW 5 1000 -100 200 L 50 50 0 0 P
+X BST 6 1000 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

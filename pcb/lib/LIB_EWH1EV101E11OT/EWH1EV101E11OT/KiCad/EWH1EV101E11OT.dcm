@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EWH1EV101E11OT
+D Electrolytic Capacitor, THT, 100 uF, 25 V, 6.3 x 11 mm, +/-20%
+K
+F https://www.aishi.com/files/WH.pdf
+$ENDCMP
+#
+#End Doc Library

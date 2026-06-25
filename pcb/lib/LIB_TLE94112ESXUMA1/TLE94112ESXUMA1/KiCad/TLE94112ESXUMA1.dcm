@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLE94112ESXUMA1
+D Motor / Motion / Ignition Controllers & Drivers DC_MOTOR_CONTROL
+K
+F https://www.mouser.es/datasheet/2/196/Infineon_TLE94112ES_DataSheet_v01_00_EN-2934050.pdf
+$ENDCMP
+#
+#End Doc Library
