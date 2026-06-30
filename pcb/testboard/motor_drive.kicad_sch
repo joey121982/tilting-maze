@@ -5,37 +5,59 @@
 	(uuid "043d0279-5e5f-4026-8fb9-7ba8619eaf91")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x04_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "52207-0633:52207-0633"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 16.51 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "Conn_01x04_Pin"
-				(at 0 -7.62 0)
+			(property "Value" "52207-0633"
+				(at 16.51 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "52207-0633"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://www.molex.com/pdm_docs/sd/522072033_sd.pdf"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "MOLEX - 52207-0633 - SOCKET, FFC/FPC, SMT, 1MM, 6WAY"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -46,8 +68,8 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" ""
+				(at 16.51 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -55,10 +77,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
+			(property "TME Electronic Components Part Number" ""
+				(at 16.51 -494.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -66,20 +89,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 16.51 -594.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -87,10 +101,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Molex"
+				(at 16.51 -694.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -98,105 +113,37 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(symbol "Conn_01x04_Pin_1_1"
+			(property "Manufacturer_Part_Number" "52207-0633"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "52207-0633_1_1"
 				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
+					(start 5.08 2.54)
+					(end 15.24 -7.62)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -212,9 +159,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -230,9 +177,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -248,9 +195,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -258,6 +205,42 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -974,7 +957,7 @@
 	)
 	(text "A-\n"
 		(exclude_from_sim no)
-		(at 108.204 67.564 0)
+		(at 108.204 56.134 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -984,7 +967,7 @@
 	)
 	(text "B-\n"
 		(exclude_from_sim no)
-		(at 108.458 88.138 0)
+		(at 108.458 79.248 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -994,7 +977,7 @@
 	)
 	(text "A-\n"
 		(exclude_from_sim no)
-		(at 109.22 99.314 0)
+		(at 109.22 90.424 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1014,7 +997,7 @@
 	)
 	(text "A+"
 		(exclude_from_sim no)
-		(at 108.204 65.024 0)
+		(at 108.204 53.594 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1024,7 +1007,7 @@
 	)
 	(text "A+"
 		(exclude_from_sim no)
-		(at 109.22 96.774 0)
+		(at 109.22 87.884 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1034,7 +1017,7 @@
 	)
 	(text "B+\n"
 		(exclude_from_sim no)
-		(at 108.458 85.344 0)
+		(at 108.458 76.454 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1044,7 +1027,7 @@
 	)
 	(text "A-\n"
 		(exclude_from_sim no)
-		(at 108.458 82.804 0)
+		(at 108.458 73.914 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1054,7 +1037,7 @@
 	)
 	(text "B-\n"
 		(exclude_from_sim no)
-		(at 109.22 104.648 0)
+		(at 109.22 95.758 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1064,7 +1047,7 @@
 	)
 	(text "B+\n"
 		(exclude_from_sim no)
-		(at 108.204 70.104 0)
+		(at 108.204 58.674 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1096,7 +1079,7 @@
 	)
 	(text "A+"
 		(exclude_from_sim no)
-		(at 108.458 80.264 0)
+		(at 108.458 71.374 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1106,7 +1089,7 @@
 	)
 	(text "B+\n"
 		(exclude_from_sim no)
-		(at 109.22 101.854 0)
+		(at 109.22 92.964 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1116,7 +1099,7 @@
 	)
 	(text "B-\n"
 		(exclude_from_sim no)
-		(at 108.204 72.898 0)
+		(at 108.204 61.468 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1148,6 +1131,36 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 88.9) (xy 119.38 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1228c355-e2ab-4b76-90a8-840b0b06037a")
+	)
+	(wire
+		(pts
+			(xy 96.52 54.61) (xy 119.38 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1482cafc-30b7-4855-ab6f-e64df3a3b1ea")
+	)
+	(wire
+		(pts
+			(xy 50.8 60.96) (xy 59.69 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c6e28f0-5e34-42be-a453-f035708421e2")
+	)
+	(wire
+		(pts
 			(xy 129.54 91.44) (xy 142.24 91.44)
 		)
 		(stroke
@@ -1158,13 +1171,33 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 100.33) (xy 119.38 100.33)
+			(xy 50.8 76.2) (xy 50.8 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "204435c1-e72e-4703-b059-05a8a93c717c")
+		(uuid "20b661e9-f902-492d-83c3-0f3d3eb6f13c")
+	)
+	(wire
+		(pts
+			(xy 50.8 58.42) (xy 50.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24fb806b-5adb-4167-ab53-c0d787c04948")
+	)
+	(wire
+		(pts
+			(xy 80.01 60.96) (xy 88.9 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2710b546-3727-497b-9cdb-e8d826210ed2")
 	)
 	(wire
 		(pts
@@ -1178,6 +1211,46 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 58.42) (xy 88.9 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eeeff44-a56d-4b53-800c-23a3046c0b86")
+	)
+	(wire
+		(pts
+			(xy 80.01 96.52) (xy 88.9 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d45744-9fe3-43f1-9d86-ff73ab76bd77")
+	)
+	(wire
+		(pts
+			(xy 50.8 93.98) (xy 59.69 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34971f8d-c06a-40bb-b539-85db2ad3e5fc")
+	)
+	(wire
+		(pts
+			(xy 50.8 55.88) (xy 59.69 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a350ed-2e69-48cb-8ee4-a06b9cf2cce7")
+	)
+	(wire
+		(pts
 			(xy 189.23 91.44) (xy 177.8 91.44)
 		)
 		(stroke
@@ -1185,6 +1258,16 @@
 			(type default)
 		)
 		(uuid "365c4cde-d349-4d29-ad6e-900bfe360897")
+	)
+	(wire
+		(pts
+			(xy 97.79 96.52) (xy 119.38 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "389f4823-9185-48e1-9133-1e43100cfc81")
 	)
 	(wire
 		(pts
@@ -1198,6 +1281,26 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 55.88) (xy 88.9 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39dc799c-4c15-47f1-8497-3ed5f178c696")
+	)
+	(wire
+		(pts
+			(xy 80.01 76.2) (xy 88.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd5abc2-1ed0-436d-bb5b-4354bdffcdc0")
+	)
+	(wire
+		(pts
 			(xy 177.8 96.52) (xy 189.23 96.52)
 		)
 		(stroke
@@ -1208,23 +1311,33 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 81.28) (xy 119.38 81.28)
+			(xy 50.8 58.42) (xy 59.69 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b8d06dc-06c9-4cc9-8a7b-8da784355be2")
+		(uuid "487f6251-b5a5-47a6-aa28-2fa579942d0e")
 	)
 	(wire
 		(pts
-			(xy 106.68 102.87) (xy 119.38 102.87)
+			(xy 50.8 93.98) (xy 50.8 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f21b66b-6e9c-46e0-9d68-a369b192e9e5")
+		(uuid "49366c73-128a-4ab8-be7b-c13ceebedb0c")
+	)
+	(wire
+		(pts
+			(xy 50.8 78.74) (xy 59.69 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d5ecc5e-7776-4f28-a27e-63d0b0b7a4f7")
 	)
 	(wire
 		(pts
@@ -1248,6 +1361,26 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 74.93) (xy 119.38 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59946188-6d5b-4949-be3a-548771a7fdbd")
+	)
+	(wire
+		(pts
+			(xy 96.52 59.69) (xy 119.38 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b074039-609a-4449-b81a-d7dd5d0def0d")
+	)
+	(wire
+		(pts
 			(xy 177.8 88.9) (xy 189.23 88.9)
 		)
 		(stroke
@@ -1268,13 +1401,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 88.9) (xy 119.38 88.9)
+			(xy 96.52 57.15) (xy 119.38 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6734d6a8-a9c4-482d-a756-79618efb9752")
+		(uuid "6982992b-af81-43de-ab80-dc666fc3176c")
 	)
 	(wire
 		(pts
@@ -1285,6 +1418,26 @@
 			(type default)
 		)
 		(uuid "741493c0-a920-4832-9b15-c1d2073115e2")
+	)
+	(wire
+		(pts
+			(xy 96.52 62.23) (xy 119.38 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76cc955e-1140-41d8-a4d2-9f4e3d653e8b")
+	)
+	(wire
+		(pts
+			(xy 80.01 78.74) (xy 88.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776a564f-3530-4570-ab67-e776c21bfd91")
 	)
 	(wire
 		(pts
@@ -1308,23 +1461,33 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 97.79) (xy 119.38 97.79)
+			(xy 50.8 76.2) (xy 59.69 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82961b11-ac58-439b-83d2-ba092b6d4f41")
+		(uuid "825af4f1-6cb5-471d-a970-547548828a0a")
 	)
 	(wire
 		(pts
-			(xy 106.68 105.41) (xy 119.38 105.41)
+			(xy 97.79 93.98) (xy 119.38 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "832f35f3-112a-4a8b-b90a-be2aca1b7c11")
+		(uuid "89253a48-8491-4fc8-8aa0-08284f5769d4")
+	)
+	(wire
+		(pts
+			(xy 80.01 93.98) (xy 88.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d753525-38f7-4862-a76a-a14231b57866")
 	)
 	(wire
 		(pts
@@ -1348,6 +1511,26 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 96.52) (xy 59.69 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9227f8b3-927f-4174-bc6b-604eb0ab294e")
+	)
+	(wire
+		(pts
+			(xy 97.79 72.39) (xy 119.38 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c003fbd-44be-41e5-bd9a-829c13e0359d")
+	)
+	(wire
+		(pts
 			(xy 129.54 104.14) (xy 142.24 104.14)
 		)
 		(stroke
@@ -1358,13 +1541,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 68.58) (xy 119.38 68.58)
+			(xy 88.9 91.44) (xy 88.9 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a829e3d5-e4f9-4ffc-a186-f4a4a86d269c")
+		(uuid "a8f339fc-f3b9-4e7e-8d61-0bfd5366f291")
 	)
 	(wire
 		(pts
@@ -1375,6 +1558,16 @@
 			(type default)
 		)
 		(uuid "a95ee66b-2c5e-4fe0-a6e9-d22fd131fa2f")
+	)
+	(wire
+		(pts
+			(xy 50.8 91.44) (xy 59.69 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af3a4d6b-3888-4cb5-a077-8ba711981b47")
 	)
 	(wire
 		(pts
@@ -1438,13 +1631,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 73.66) (xy 119.38 73.66)
+			(xy 80.01 91.44) (xy 88.9 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b56d73fd-ff8b-4eab-847a-578e9c826d7e")
+		(uuid "bc0f2590-6a0a-47df-8ad0-f54cacd440be")
 	)
 	(wire
 		(pts
@@ -1458,13 +1651,23 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 83.82) (xy 119.38 83.82)
+			(xy 50.8 73.66) (xy 59.69 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c449e43d-d8d2-4fa3-9a0a-0719ed3a7249")
+		(uuid "c395bedd-9307-4f22-91ae-e687c84b4fc9")
+	)
+	(wire
+		(pts
+			(xy 80.01 55.88) (xy 88.9 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c56babee-b31f-4fbe-9545-281e46dbe605")
 	)
 	(wire
 		(pts
@@ -1508,13 +1711,23 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 66.04) (xy 119.38 66.04)
+			(xy 97.79 91.44) (xy 119.38 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd911785-d037-4037-b0c8-504ef3e491e5")
+		(uuid "d6dde982-d05e-4415-83d5-4ac93f6cba15")
+	)
+	(wire
+		(pts
+			(xy 88.9 73.66) (xy 88.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dce78f37-0d9d-4771-8f81-329c595c34e4")
 	)
 	(wire
 		(pts
@@ -1545,6 +1758,16 @@
 			(type default)
 		)
 		(uuid "dff22ad2-862f-46ea-8481-1b40f6bff76b")
+	)
+	(wire
+		(pts
+			(xy 97.79 80.01) (xy 119.38 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e53b5bef-c8e6-423c-a9a4-f65718bd2945")
 	)
 	(wire
 		(pts
@@ -1598,23 +1821,33 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 86.36) (xy 119.38 86.36)
+			(xy 97.79 77.47) (xy 119.38 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f95e93af-289f-4a55-b5dd-36ef1b2d519e")
+		(uuid "f94b873d-7dab-42f9-ad5c-2cec5b2d6994")
 	)
 	(wire
 		(pts
-			(xy 106.68 71.12) (xy 119.38 71.12)
+			(xy 80.01 73.66) (xy 88.9 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fe0df49b-3469-465d-b3ee-e0ad6762a094")
+		(uuid "fe5b6a64-4b29-4fbf-b4ce-bbcf46899993")
+	)
+	(label "PAD3_M2"
+		(at 88.9 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "01b43a59-59d0-4aac-87fb-dbf41f3b1c50")
 	)
 	(label "GND"
 		(at 189.23 81.28 180)
@@ -1627,7 +1860,7 @@
 		(uuid "068e99a1-e252-448d-a830-f00f6e8160b5")
 	)
 	(label "OUT11"
-		(at 119.38 100.33 180)
+		(at 119.38 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1656,6 +1889,26 @@
 		)
 		(uuid "0f911921-35a2-4369-8e25-d66c0ada490d")
 	)
+	(label "PAD3_M2"
+		(at 97.79 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1431e3d7-5e0e-4c86-9345-2c082c5e1204")
+	)
+	(label "PAD4_M3"
+		(at 88.9 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "16581c2f-a04b-4686-a53d-9ce396949241")
+	)
 	(label "VS"
 		(at 189.23 101.6 180)
 		(effects
@@ -1667,7 +1920,7 @@
 		(uuid "17c1ba00-16c7-4799-ac80-9ec1305cbdd9")
 	)
 	(label "OUT8"
-		(at 119.38 73.66 180)
+		(at 119.38 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1726,6 +1979,16 @@
 		)
 		(uuid "393a4318-b9c4-4272-aaa1-1efed941b0bd")
 	)
+	(label "PAD1_M1"
+		(at 96.52 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40a1fb4a-6f1a-40b8-96bf-dcba87cec64f")
+	)
 	(label "OUT7"
 		(at 129.54 88.9 0)
 		(effects
@@ -1747,7 +2010,7 @@
 		(uuid "42d84557-01fc-4bcc-9294-54a1fb5f451d")
 	)
 	(label "OUT5"
-		(at 119.38 68.58 180)
+		(at 119.38 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1776,6 +2039,16 @@
 		)
 		(uuid "4844af83-b299-4b41-9921-c139e8a3bba6")
 	)
+	(label "PAD4_M2"
+		(at 88.9 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "48a0789b-2020-4f3a-9a2b-df008dcd26b1")
+	)
 	(label "OUT1"
 		(at 129.54 83.82 0)
 		(effects
@@ -1787,7 +2060,7 @@
 		(uuid "4ab0491f-72f4-46da-9f09-4036b801b23d")
 	)
 	(label "OUT7"
-		(at 119.38 81.28 180)
+		(at 119.38 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1836,6 +2109,36 @@
 		)
 		(uuid "6737bf20-d564-4fe1-9770-6b7692ab0ed5")
 	)
+	(label "PAD4_M2"
+		(at 97.79 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "673e80a8-4aae-4fff-bb38-c320b34c395c")
+	)
+	(label "PAD4_M1"
+		(at 96.52 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "673e89ed-7852-41de-8a11-c5b2168d833b")
+	)
+	(label "PAD1_M2"
+		(at 50.8 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6894713e-289c-4b3d-8241-4c3b0fa05c82")
+	)
 	(label "SPI_MOSI"
 		(at 129.54 91.44 0)
 		(effects
@@ -1846,8 +2149,18 @@
 		)
 		(uuid "6b005a52-ae2b-4a51-b4f7-9e66064c9aba")
 	)
+	(label "PAD3_M3"
+		(at 97.79 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71028a62-b3ef-4bfa-a46f-a6f41078c780")
+	)
 	(label "OUT3"
-		(at 119.38 105.41 180)
+		(at 119.38 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1856,8 +2169,18 @@
 		)
 		(uuid "756447eb-434e-4b51-adeb-ae72e1d0c006")
 	)
+	(label "PAD2_M1"
+		(at 50.8 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76a5aabc-7017-4857-b067-37c6b125eae7")
+	)
 	(label "OUT2"
-		(at 119.38 71.12 180)
+		(at 119.38 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1867,7 +2190,7 @@
 		(uuid "77b2ab7d-fd14-4679-ab59-6ca075c941d9")
 	)
 	(label "OUT9"
-		(at 119.38 83.82 180)
+		(at 119.38 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1875,6 +2198,16 @@
 			(justify right bottom)
 		)
 		(uuid "78c0c411-dbb9-4c88-81cf-d04daa2190d6")
+	)
+	(label "PAD4_M1"
+		(at 88.9 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8089eddc-94a8-4f11-a9e7-30201f6c91bb")
 	)
 	(label "OUT3"
 		(at 189.23 106.68 180)
@@ -1906,8 +2239,28 @@
 		)
 		(uuid "8cda2a44-674e-4310-b230-0b25f1ad66b3")
 	)
+	(label "PAD2_M2"
+		(at 97.79 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8faa8d74-90cf-431d-93ae-a3d91f96ab36")
+	)
+	(label "PAD1_M3"
+		(at 97.79 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90ef4fd1-ba9f-403d-9da8-a6c3084f09c4")
+	)
 	(label "OUT4"
-		(at 119.38 88.9 180)
+		(at 119.38 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1936,6 +2289,16 @@
 		)
 		(uuid "97937878-938b-4ab6-83f5-13e33f13ffbf")
 	)
+	(label "PAD2_M3"
+		(at 97.79 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a36df40e-4ae5-499e-9337-82c010638382")
+	)
 	(label "SPI_CS"
 		(at 189.23 93.98 180)
 		(effects
@@ -1946,8 +2309,48 @@
 		)
 		(uuid "aa954ba9-4535-497e-9aea-6f0123661006")
 	)
+	(label "PAD2_M1"
+		(at 96.52 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab39477f-fbb4-4524-8db4-1682845410b5")
+	)
+	(label "PAD2_M3"
+		(at 50.8 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac985377-454a-4cae-a967-172180816fb8")
+	)
+	(label "PAD3_M3"
+		(at 88.9 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b00d1e82-f2f4-451e-b2a7-db3f2d356dff")
+	)
+	(label "PAD3_M1"
+		(at 96.52 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc1d84a6-c8f2-49c7-8319-d0abfea732aa")
+	)
 	(label "OUT6"
-		(at 119.38 86.36 180)
+		(at 119.38 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1957,7 +2360,7 @@
 		(uuid "bd677811-0607-4359-8b39-e556e6fee683")
 	)
 	(label "OUT1"
-		(at 119.38 66.04 180)
+		(at 119.38 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1966,8 +2369,48 @@
 		)
 		(uuid "c06f85e7-f283-4739-b757-740a3652b122")
 	)
+	(label "PAD1_M1"
+		(at 50.8 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5b301b2-e5ed-48d9-a302-b18eb319f0b0")
+	)
+	(label "PAD3_M1"
+		(at 88.9 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cdc055b7-4e6e-443c-96e4-8f4efc8c09d6")
+	)
+	(label "PAD2_M2"
+		(at 50.8 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1e0f746-e137-4522-8078-6d4f1dd824a0")
+	)
+	(label "PAD4_M3"
+		(at 97.79 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2639ac4-aab8-4a7e-acf8-bab16d9875df")
+	)
 	(label "OUT12"
-		(at 119.38 97.79 180)
+		(at 119.38 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1986,8 +2429,18 @@
 		)
 		(uuid "e3864f3d-d141-441d-9b12-0fb2ea688d95")
 	)
+	(label "PAD1_M2"
+		(at 97.79 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7bf5580-292f-4613-beba-9225108c40f7")
+	)
 	(label "OUT10"
-		(at 119.38 102.87 180)
+		(at 119.38 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2055,6 +2508,16 @@
 			(justify left bottom)
 		)
 		(uuid "fdf1aa80-f498-461c-b8d4-c97f03a08d9c")
+	)
+	(label "PAD1_M3"
+		(at 50.8 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff172795-33a3-4864-a255-d586f583bc86")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -2134,8 +2597,8 @@
 		(uuid "dc3b107d-b3b0-4f7b-bec5-8cd5b3daf749")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 101.6 100.33 0)
+		(lib_id "52207-0633:52207-0633")
+		(at 59.69 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2143,9 +2606,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "23f8cd9f-3b7a-4699-bbaa-07f17930f591")
-		(property "Reference" "J5"
-			(at 95.758 100.076 0)
+		(fields_autoplaced yes)
+		(uuid "314bbf09-8d9d-4e04-9842-a8646e15f7db")
+		(property "Reference" "J4"
+			(at 69.85 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2154,8 +2618,8 @@
 				)
 			)
 		)
-		(property "Value" "Motor 3"
-			(at 95.758 102.616 0)
+		(property "Value" "52207-0633"
+			(at 69.85 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2164,8 +2628,32 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical"
-			(at 101.6 100.33 0)
+		(property "Footprint" "molex:52207-0633"
+			(at 76.2 168.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.molex.com/pdm_docs/sd/522072033_sd.pdf"
+			(at 76.2 268.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MOLEX - 52207-0633 - SOCKET, FFC/FPC, SMT, 1MM, 6WAY"
+			(at 59.69 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2175,8 +2663,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 101.6 100.33 0)
+		(property "Height" ""
+			(at 76.2 468.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2184,10 +2672,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 101.6 100.33 0)
+		(property "TME Electronic Components Part Number" ""
+			(at 76.2 568.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2195,109 +2684,67 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(pin "3"
-			(uuid "25bbddb4-d5f2-47fd-9406-6d65856da1d4")
+		(property "TME Electronic Components Price/Stock" ""
+			(at 76.2 668.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
-		(pin "4"
-			(uuid "fa722f90-7686-459e-ad53-9066a7c82eca")
+		(property "Manufacturer_Name" "Molex"
+			(at 76.2 768.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "52207-0633"
+			(at 76.2 868.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
 		(pin "1"
-			(uuid "2b8e950e-d2d9-456b-9c42-5c82a718ff6e")
+			(uuid "15da6635-ecb4-4102-b613-40b004af93fe")
+		)
+		(pin "3"
+			(uuid "caf23152-6595-4965-8c0c-ba9687dbd70d")
+		)
+		(pin "5"
+			(uuid "e5e734c4-d6b1-4fdb-820b-b36318c63e66")
+		)
+		(pin "4"
+			(uuid "71341a45-5e28-4907-88ce-e868dca431ea")
 		)
 		(pin "2"
-			(uuid "c67bc8e9-d6db-4e4f-8191-8d8815b13612")
+			(uuid "573c67e3-4841-430a-808d-521c320befa1")
+		)
+		(pin "6"
+			(uuid "7c732a95-e110-4427-adec-b9fd50858b5c")
 		)
 		(instances
 			(project "testboard"
 				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91/35b17c37-0116-4a0d-94e8-be72844c357d"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 101.6 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "789c9e0a-90c8-4399-b57e-731eef6109da")
-		(property "Reference" "J3"
-			(at 95.758 68.326 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Motor 1"
-			(at 95.758 70.866 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical"
-			(at 101.6 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 101.6 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "0d83a4df-18e1-423a-9295-2f765d4d5570")
-		)
-		(pin "4"
-			(uuid "9bde46eb-1b44-49f2-8a22-3433c6db8c66")
-		)
-		(pin "1"
-			(uuid "332aad1f-c083-419d-ac50-52cb9dc4abce")
-		)
-		(pin "2"
-			(uuid "f8cd08ef-9865-428a-b99f-af571875ca2f")
-		)
-		(instances
-			(project "testboard"
-				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91/35b17c37-0116-4a0d-94e8-be72844c357d"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2335,7 +2782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P600X115-25N"
+		(property "Footprint" ""
 			(at 173.99 176.2 0)
 			(hide yes)
 			(show_name no)
@@ -2515,8 +2962,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 101.6 83.82 0)
+		(lib_id "52207-0633:52207-0633")
+		(at 59.69 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2524,9 +2971,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "abc76bca-ad8f-40d9-8cf9-4fd184fbf3e0")
-		(property "Reference" "J4"
-			(at 95.758 83.566 0)
+		(fields_autoplaced yes)
+		(uuid "80aa5714-e046-4bf9-bc77-ccfce92d2816")
+		(property "Reference" "J5"
+			(at 69.85 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2535,8 +2983,8 @@
 				)
 			)
 		)
-		(property "Value" "Motor 2"
-			(at 95.758 86.106 0)
+		(property "Value" "52207-0633"
+			(at 69.85 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2545,8 +2993,32 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical"
-			(at 101.6 83.82 0)
+		(property "Footprint" "molex:52207-0633"
+			(at 76.2 186.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.molex.com/pdm_docs/sd/522072033_sd.pdf"
+			(at 76.2 286.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MOLEX - 52207-0633 - SOCKET, FFC/FPC, SMT, 1MM, 6WAY"
+			(at 59.69 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2556,8 +3028,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 101.6 83.82 0)
+		(property "Height" ""
+			(at 76.2 486.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2565,10 +3037,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 101.6 83.82 0)
+		(property "TME Electronic Components Part Number" ""
+			(at 76.2 586.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2576,24 +3049,221 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(pin "3"
-			(uuid "1e07424d-1ed0-415b-82c4-136ed9ced957")
+		(property "TME Electronic Components Price/Stock" ""
+			(at 76.2 686.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
-		(pin "4"
-			(uuid "e6af1338-63fa-4ccc-857d-b0d917746bc9")
+		(property "Manufacturer_Name" "Molex"
+			(at 76.2 786.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "52207-0633"
+			(at 76.2 886.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
 		(pin "1"
-			(uuid "5045b998-007c-4a2c-b308-4dff6a9241b4")
+			(uuid "a7ef2e5c-bc53-4f13-b85c-acc636ff86ce")
+		)
+		(pin "3"
+			(uuid "b290ded9-9dc2-458a-8107-b38207c45863")
+		)
+		(pin "5"
+			(uuid "510ab53a-33b7-4127-8c88-62a751c1c67c")
+		)
+		(pin "4"
+			(uuid "85bac18f-7c3d-4ba5-af6f-3b1d9d379fe7")
 		)
 		(pin "2"
-			(uuid "3794fe3d-a87c-4462-8ad3-0a3902fbdfbd")
+			(uuid "daf92b61-8c07-44f0-9269-b6d9450976b0")
+		)
+		(pin "6"
+			(uuid "d569ce60-61f0-4d9b-a6fa-f120aca65414")
 		)
 		(instances
 			(project "testboard"
 				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91/35b17c37-0116-4a0d-94e8-be72844c357d"
-					(reference "J4")
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "52207-0633:52207-0633")
+		(at 59.69 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8699923e-a2fb-498f-8237-531eb2530512")
+		(property "Reference" "J3"
+			(at 69.85 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "52207-0633"
+			(at 69.85 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "molex:52207-0633"
+			(at 76.2 150.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.molex.com/pdm_docs/sd/522072033_sd.pdf"
+			(at 76.2 250.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MOLEX - 52207-0633 - SOCKET, FFC/FPC, SMT, 1MM, 6WAY"
+			(at 59.69 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 76.2 450.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 76.2 550.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 76.2 650.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 76.2 750.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "52207-0633"
+			(at 76.2 850.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "aa1b5a1b-344a-4b27-a083-b82f98200268")
+		)
+		(pin "3"
+			(uuid "9866b3e6-f371-49e6-82ed-4f873e22f01e")
+		)
+		(pin "5"
+			(uuid "60f84b40-23c1-456c-9868-8b032cf0ddde")
+		)
+		(pin "4"
+			(uuid "11fd7d53-1046-4028-abfa-460e353c1ecc")
+		)
+		(pin "2"
+			(uuid "b1d15e47-38e8-4884-9de7-a7bd08eee7b9")
+		)
+		(pin "6"
+			(uuid "d00d7e12-03ca-4eae-b76b-3ccf0f1f74f6")
+		)
+		(instances
+			(project "testboard"
+				(path "/043d0279-5e5f-4026-8fb9-7ba8619eaf91/35b17c37-0116-4a0d-94e8-be72844c357d"
+					(reference "J3")
 					(unit 1)
 				)
 			)

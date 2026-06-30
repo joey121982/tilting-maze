@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "52207-0633") (type "KiCad") (uri "/home/hanu/work/tilting-maze/pcb/lib/kicad_52207-0633/52207-0633.kicad_sym") (options "") (descr ""))
+)

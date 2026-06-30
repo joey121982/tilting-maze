@@ -1,0 +1,10 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "molex") (type "KiCad") (uri "/home/hanu/work/tilting-maze/pcb/lib/molex.pretty") (options "") (descr ""))
+	(lib (name "tle94112esxuma1") (type "KiCad") (uri "/home/hanu/work/tilting-maze/pcb/lib/tle94112esxuma1.pretty") (options "") (descr ""))
+	(lib (name "tl94112") (type "KiCad") (uri "/home/hanu/work/tilting-maze/pcb/lib/LIB_TLE94112ESXUMA1/TLE94112ESXUMA1/KiCad") (options "") (descr ""))
+	(lib (name "libs_luci") (type "KiCad") (uri "/home/hanu/work/tilting-maze/pcb/lib/libs_luci") (options "") (descr ""))
+	(lib (name "fh19c") (type "KiCad") (uri "/home/hanu/work/tilting-maze/pcb/lib/LIB_FH19C-4S-0.5SH_10_/FH19C-4S-0.5SH_10_/KiCad") (options "") (descr ""))
+	(lib (name "EWH1EV101E11OT") (type "KiCad") (uri "/home/hanu/work/tilting-maze/pcb/lib/LIB_EWH1EV101E11OT/EWH1EV101E11OT/KiCad") (options "") (descr ""))
+	(lib (name "AP63203") (type "KiCad") (uri "/home/hanu/work/tilting-maze/pcb/lib/AP63203") (options "") (descr ""))
+)

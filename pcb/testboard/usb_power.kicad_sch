@@ -4507,7 +4507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN24_CYPD3177_INF"
+		(property "Footprint" ""
 			(at 119.38 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4822,7 +4822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "QFN24_CYPD3177_INF"
+		(property "Footprint" ""
 			(at 119.38 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5531,7 +5531,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AP63203WU7"
+		(property "Footprint" ""
 			(at 154.94 243.51 0)
 			(hide yes)
 			(show_name no)
@@ -5849,7 +5849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C_1206_3216Metric"
+		(property "Footprint" ""
 			(at 120.65 158.75 0)
 			(hide yes)
 			(show_name no)
