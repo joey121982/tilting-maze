@@ -76,7 +76,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|68830000|93400000|555f0ff6-0aa9-4de4-b617-7b9818e50bd3|6bfaf381-8df7-4a04-a828-4868d2469d97",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
