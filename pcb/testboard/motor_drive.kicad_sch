@@ -2640,7 +2640,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.molex.com/pdm_docs/sd/522072033_sd.pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/522072033"
 			(at 76.2 268.58 0)
 			(hide yes)
 			(show_name no)
@@ -2723,6 +2723,17 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser Part Number" "52207-0633"
+			(at 59.69 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "15da6635-ecb4-4102-b613-40b004af93fe")
 		)
@@ -2782,7 +2793,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TLE94112ESXUMA1:SOP65P600X115-25N"
 			(at 173.99 176.2 0)
 			(hide yes)
 			(show_name no)
@@ -3005,7 +3016,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.molex.com/pdm_docs/sd/522072033_sd.pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/522072033"
 			(at 76.2 286.36 0)
 			(hide yes)
 			(show_name no)
@@ -3088,6 +3099,17 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser Part Number" "52207-0633"
+			(at 59.69 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a7ef2e5c-bc53-4f13-b85c-acc636ff86ce")
 		)
@@ -3159,7 +3181,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.molex.com/pdm_docs/sd/522072033_sd.pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/522072033"
 			(at 76.2 250.8 0)
 			(hide yes)
 			(show_name no)
@@ -3240,6 +3262,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "52207-0633"
+			(at 59.69 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

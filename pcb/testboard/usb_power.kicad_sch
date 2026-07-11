@@ -3761,7 +3761,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1105/CL21B105KAFNNNE_Spec.pdf"
 			(at 63.5 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3773,6 +3773,28 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
+			(at 63.5 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KAFNNNE"
+			(at 63.5 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CL21B105KAFNNNE"
 			(at 63.5 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3941,6 +3963,28 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "TYPE-C-31-M-12"
+			(at 68.58 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TYPE-C-31-M-12"
+			(at 68.58 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A4"
 			(uuid "b26f1f2e-4a36-41e7-b7c1-4238474d51b6")
 		)
@@ -4040,7 +4084,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 219.71 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4052,6 +4096,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 219.71 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 219.71 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-075K1L"
 			(at 219.71 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4122,7 +4188,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1105/CL21B105KAFNNNE_Spec.pdf"
 			(at 92.71 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4134,6 +4200,28 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
+			(at 92.71 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KAFNNNE"
+			(at 92.71 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CL21B105KAFNNNE"
 			(at 92.71 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4204,7 +4292,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/76/1/GRM21BR60J226ME39-01A.pdf"
 			(at 220.98 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4216,6 +4304,28 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
+			(at 220.98 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "GRM21BR60J226ME39K"
+			(at 220.98 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM21BR60J226ME39K"
 			(at 220.98 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4507,7 +4617,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "libs_luci:QFN24_CYPD3177_INF"
 			(at 119.38 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4532,6 +4642,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 119.38 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CYPD3177-24LQXQ"
+			(at 119.38 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CYPD3177-24LQXQ"
 			(at 119.38 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4669,7 +4801,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM21BR71H104KA01-01-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250707233810"
 			(at 166.37 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4682,6 +4814,28 @@
 		)
 		(property "Description" "capacitor, US symbol"
 			(at 166.37 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "GRM21BR71H104KA01K"
+			(at 166.37 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM21BR71H104KA01K"
+			(at 166.37 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4751,7 +4905,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1105/CL21B105KAFNNNE_Spec.pdf"
 			(at 73.66 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4763,6 +4917,28 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
+			(at 73.66 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KAFNNNE"
+			(at 73.66 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CL21B105KAFNNNE"
 			(at 73.66 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4822,7 +4998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "libs_luci:QFN24_CYPD3177_INF"
 			(at 119.38 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4847,6 +5023,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 119.38 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CYPD3177-24LQXQ"
+			(at 119.38 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CYPD3177-24LQXQ"
 			(at 119.38 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5220,7 +5418,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 237.49 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5232,6 +5430,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 237.49 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 237.49 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-075K1L"
 			(at 237.49 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5380,7 +5600,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/76/1/GRM21BR60J226ME39-01A.pdf"
 			(at 233.68 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5392,6 +5612,28 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
+			(at 233.68 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "GRM21BR60J226ME39K"
+			(at 233.68 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM21BR60J226ME39K"
 			(at 233.68 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5462,7 +5704,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 219.71 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5474,6 +5716,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 219.71 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "RC0805FR-071KL"
+			(at 219.71 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
 			(at 219.71 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5531,7 +5795,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AP63203:AP63203WU7"
 			(at 154.94 243.51 0)
 			(hide yes)
 			(show_name no)
@@ -5626,6 +5890,17 @@
 				(justify left top)
 			)
 		)
+		(property "Mouser Part Number" "AP63203WU-7"
+			(at 133.35 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "e48b914f-6365-409a-ae64-745528490390")
 		)
@@ -5698,7 +5973,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM21BR71H104KA01-01-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250707233810"
 			(at 102.87 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5710,6 +5985,28 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
+			(at 102.87 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "GRM21BR71H104KA01K"
+			(at 102.87 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM21BR71H104KA01K"
 			(at 102.87 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5778,7 +6075,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/40/1/srn4018.pdf"
 			(at 180.34 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -5791,6 +6088,28 @@
 		)
 		(property "Description" "Inductor"
 			(at 180.34 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "SRN4018-2R2M"
+			(at 180.34 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SRN4018-2R2M"
+			(at 180.34 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5849,7 +6168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 120.65 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -5860,7 +6179,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.tme.eu/Document/c0c73c2ceaa931bea444874e6b6b7724/EEE1HA470P.PDF"
 			(at 120.65 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -5872,6 +6191,28 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
+			(at 120.65 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "EEE1HA470P"
+			(at 120.65 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM31CR71E106KA12L"
 			(at 120.65 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -5942,7 +6283,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 237.49 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5954,6 +6295,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 237.49 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 237.49 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-075K1L"
 			(at 237.49 116.84 0)
 			(hide yes)
 			(show_name no)

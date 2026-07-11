@@ -89,7 +89,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -155,7 +154,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/76/1/GRM21BR60J226ME39-01A.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -182,6 +181,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c83a4c96-b33e-4ade-baf4-0f491156e5c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "GRM21BR60J226ME39K"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6183950-d553-4775-a9e4-18309dcd017a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM21BR60J226ME39K"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f971df3b-5e14-4e4b-a555-412652a3801d")
 			(effects
 				(font
 					(size 1 1)
@@ -313,7 +338,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -340,6 +365,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d4aea4a8-5a92-41ba-b605-6df4065e1584")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "RC0805FR-071KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e38d0e1-de57-4d68-a70a-6d76b1ac836a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "255779a5-4c2b-4b30-b38e-52ee35810601")
 			(effects
 				(font
 					(size 1 1)
@@ -471,7 +522,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.tme.eu/Document/a9f06aaefce48a31c93d25914fbf5b1b/B3F.PDF"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -493,6 +544,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "B3F-4000"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99f234d0-01bc-4473-a6bc-570d7a0c5568")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B3F-4000"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a121929a-1c18-4b20-add3-2e93c9a3fa45")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -717,7 +794,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/40/1/srn4018.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -739,6 +816,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "SRN4018-2R2M"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0fc7926-a89c-42d2-ac15-f35b22804128")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SRN4018-2R2M"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51e49204-c0b0-4440-826f-a235a3048c26")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -985,7 +1088,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1105/CL21B105KAFNNNE_Spec.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1012,6 +1115,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d8598bb7-5fc3-41a2-9281-b0e211d3ac72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KAFNNNE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1617775b-7a96-40db-8852-5db358a31d0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CL21B105KAFNNNE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41d0b28a-73df-4ce2-86a8-54a53125a165")
 			(effects
 				(font
 					(size 1 1)
@@ -1143,7 +1272,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.tme.eu/Document/c0c73c2ceaa931bea444874e6b6b7724/EEE1HA470P.PDF"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1170,6 +1299,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fdcf8fc8-9e4f-4a0d-8a00-f5f46508c93b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "EEE1HA470P"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "add6bd8b-36fb-41fb-94b4-02bfe680106a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM31CR71E106KA12L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07efbb3e-0d3a-4120-a2c2-0c1bbfd557ad")
 			(effects
 				(font
 					(size 1 1)
@@ -1301,7 +1456,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/937/Female_Headers.100_DS.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1328,6 +1483,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f6e63694-d5b2-43f3-9fdf-3f909b48cd37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "M20-7822046"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e8822d0-4659-4ec1-9228-7bb22634a576")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-7822046"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c82d6e3e-8ca5-4c9d-ade9-371159ccbb24")
 			(effects
 				(font
 					(size 1 1)
@@ -1791,6 +1972,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CYPD3177-24LQXQ"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68f7146f-1e32-4f87-8c4a-5efeba765908")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CYPD3177-24LQXQ"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8cbc8238-da48-4901-9b46-4e7a07fe4a92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3525,7 +3732,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3552,6 +3759,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f2c736cd-0502-4361-9ede-3b357325a617")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "RC0805FR-071KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "080329a5-7a96-4e8a-a113-ac9aa00bdb70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4a24d5a-48cb-4890-9c06-2cbedbd75752")
 			(effects
 				(font
 					(size 1 1)
@@ -3683,7 +3916,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3710,6 +3943,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6c7481bc-4cfb-4b28-ae3a-bbafe1092e30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5766c8f9-7319-47f3-86b7-cf9cb12d46a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-075K1L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcbca086-cf82-437a-912b-f27374212c6c")
 			(effects
 				(font
 					(size 1 1)
@@ -3841,7 +4100,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1105/CL21B105KAFNNNE_Spec.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3868,6 +4127,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b4ad4a1a-85c1-46fe-b960-09bf56f247e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KAFNNNE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bac58e92-af7e-4608-af74-b2514ebea76e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CL21B105KAFNNNE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98fdc33a-4af5-428d-a4e3-996490a2fe5f")
 			(effects
 				(font
 					(size 1 1)
@@ -3999,7 +4284,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/76/1/GRM21BR60J226ME39-01A.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4026,6 +4311,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "6ff1e0b1-2bfc-4947-97a6-82c1c0ad3cbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "GRM21BR60J226ME39K"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f781de7c-dda1-4edd-813a-4966023d87b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM21BR60J226ME39K"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86fc409a-c985-4620-bd0d-54529db7768b")
 			(effects
 				(font
 					(size 1 1)
@@ -4157,7 +4468,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4184,6 +4495,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "703ccfed-75f6-4d14-b43e-06a2b20b41c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31a89687-a1e3-4e7f-ac1e-e18ae15028aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-075K1L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15470ba7-6745-4b80-9e90-1bf308fde57e")
 			(effects
 				(font
 					(size 1 1)
@@ -4315,7 +4652,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM21BR71H104KA01-01-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250707233810"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4342,6 +4679,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0a39d6b8-8c1a-4ff8-8675-c6bb76b8d510")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "GRM21BR71H104KA01K"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7b5b653-753c-4361-91f5-49d7bea55d24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM21BR71H104KA01K"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ac42830-b81d-4318-ac8e-a5da286ebe83")
 			(effects
 				(font
 					(size 1 1)
@@ -4473,7 +4836,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4500,6 +4863,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7069cd92-302c-499c-b8d6-aa55a95579ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f14671da-d0eb-4265-bfc7-f7c2863d7af9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-075K1L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c705b98-4c51-4217-b8f2-6f5ad89e5cf3")
 			(effects
 				(font
 					(size 1 1)
@@ -4632,7 +5021,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.molex.com/pdm_docs/sd/522072033_sd.pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/522072033"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4712,6 +5101,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "368f6264-3bfd-4990-9dd8-2ddc6a5b3f3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "52207-0633"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ac39d82-697a-4998-b322-5ab34bc27bcf")
 			(effects
 				(font
 					(size 1 1)
@@ -5027,6 +5429,19 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "AP63203WU-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77799577-5488-4eed-ad53-38e47dab4d99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/6b2b39e5-cba6-444d-9e6d-d556c18ffdf1/e2d04520-81f4-4769-8e0f-8c4d1c87aacc")
 		(sheetname "/USB POWER/")
 		(sheetfile "usb_power.kicad_sch")
@@ -5286,7 +5701,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/937/Female_Headers.100_DS.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5313,6 +5728,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d7b3c88b-6af9-4196-86d3-1b5c407010a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "M20-7822046"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d83f913a-9e51-4cfd-ba90-46883d4f1a07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-7822046"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51c8a364-6f43-4e3f-9d0c-2f21447e8226")
 			(effects
 				(font
 					(size 1 1)
@@ -5756,7 +6197,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM21BR71H104KA01-01-EN_PDF_CERAMICCAPACITORSMD?lastModifiedDatetime=20250707233810"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5783,6 +6224,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "37454a29-27b1-47f8-a413-1e223fcdb857")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "GRM21BR71H104KA01K"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a566d237-f445-4814-9e63-e88421aa0cc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM21BR71H104KA01K"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "618ea2f6-135a-4d57-94f7-d3477be1e1c9")
 			(effects
 				(font
 					(size 1 1)
@@ -5915,7 +6382,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.molex.com/pdm_docs/sd/522072033_sd.pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/522072033"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5995,6 +6462,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cc16b6f7-5083-48a7-8e86-f7961b353019")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "52207-0633"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24775d55-5c9a-49cf-97ab-2425e47cd762")
 			(effects
 				(font
 					(size 1 1)
@@ -6729,6 +7209,32 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "TYPE-C-31-M-12"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1dc88419-633f-4dac-a229-2e683f5e6620")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TYPE-C-31-M-12"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6180659-3ed6-4128-9d9c-da1a24d2b362")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/6b2b39e5-cba6-444d-9e6d-d556c18ffdf1/1577788d-d5c2-4b9a-a827-71aa81826db5")
 		(sheetname "/USB POWER/")
@@ -7142,7 +7648,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.molex.com/pdm_docs/sd/522072033_sd.pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/522072033"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7222,6 +7728,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e4e6e931-cf21-4dde-a85f-b6207485913d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "52207-0633"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49f6b9a7-4eeb-45b4-800e-3113f53e90f5")
 			(effects
 				(font
 					(size 1 1)
@@ -7449,7 +7968,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1105/CL21B105KAFNNNE_Spec.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7476,6 +7995,32 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b614b5e9-0490-44af-965c-6d2cfdeba551")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KAFNNNE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b69cef74-9187-46f6-b63d-73d95706cc72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "CL21B105KAFNNNE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16e4e5fa-38e4-4c9a-a3fa-9809bb130227")
 			(effects
 				(font
 					(size 1 1)
