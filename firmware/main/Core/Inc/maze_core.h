@@ -1,5 +1,4 @@
-#ifndef MAZE_CORE_HPP
-#define MAZE_CORE_HPP
+#pragma once
 
 #include <stdint.h>
 
@@ -63,4 +62,3 @@ void generate(Maze& maze, uint32_t seed);
 
 }   // namespace MazeGen
 
-#endif /* MAZE_CORE_HPP */

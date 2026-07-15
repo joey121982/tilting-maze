@@ -5,7 +5,7 @@
 // TODO:    changing the maze size from 10x10 to 12x12 in the generator seems to mostly fix
 //          the "thick exterior walls" issue. look into this further
 
-#include "maze_core.hpp"
+#include "maze_core.h"
 
 /**
  * @file
