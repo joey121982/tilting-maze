@@ -56,11 +56,16 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     Src/drivers/tle94112.cpp
     Src/drivers/stepper_motor.cpp
     Src/drivers/button.cpp
+
+
+    # nucleul de labirint, comun cu CLI-ul de PC (tools/maze.cpp)
+    ../../common/maze_core.cpp
 )
 
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     Inc
+    ../../common
 )
 
 # Add project symbols (macros)
