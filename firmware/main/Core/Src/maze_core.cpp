@@ -1,5 +1,6 @@
 // TODO:    rename ALL variables used in this file to more descriptive names,
-//          remove all unnecessary doxygen comments
+//          remove all unnecessary doxygen comments,
+//          change remaining doxygen comments to english and simplify them
 
 // TODO:    changing the maze size from 10x10 to 12x12 in the generator seems to mostly fix
 //          the "thick exterior walls" issue. look into this further
