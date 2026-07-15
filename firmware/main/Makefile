@@ -44,6 +44,7 @@ C_SOURCES = $(shell find Core/Src \
 # C++ sources
 CXX_SOURCES = 	$(shell find Core/Src \
 				Drivers/STM32F1xx_HAL_Driver/Src \
+				Drivers/UART/Src \
 				-name '*.cpp' \
 				! -name '*_template.cpp')
 

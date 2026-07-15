@@ -1,5 +1,7 @@
 #pragma once
 
+#include <cstdint>
+
 #include "stm32f1xx_hal.h"
 #include "stm32f1xx_hal_uart.h"
 
@@ -8,11 +10,10 @@ namespace UART {
         /** @brief Used for priority transmission, blocks CPU until end of message */
         BLOCKING,
         /** @brief Used for non-priority transmission, does NOT block CPU during transmission */
-        INTERRUPT,
-        /** @brief Used for offloaded transmission, uses DMA instead of CPU */
-        DMA
+        INTERRUPT
     };
 
+    /** @brief UART port definition class */
     class UART_PORT {
     private:
         UART_HandleTypeDef _huart;
@@ -30,18 +31,30 @@ namespace UART {
     public:
         // TODO: add missing doxygen comments
 
-        /**
-         * @brief Construct a new uart port object
-         * 
-         * @param tx_port 
-         * @param tx_pin 
-         * @param rx_port 
-         * @param rx_pin 
-         * @param baud 
-         */
         UART_PORT(GPIO_TypeDef* tx_port, uint16_t tx_pin, 
                   GPIO_TypeDef* rx_port, uint16_t rx_pin, 
                   uint32_t baud = 115200);
+
+        bool init();
+        
+        void setBaudRate(uint32_t baud);
+        uint32_t getBaudRate() const;
+        UART_HandleTypeDef* getHandle();
+    };
+
+    /** @brief UART device class */
+    class UART_DEVICE {
+    private:
+        UART_PORT _port;
+
+    public:
+        // TODO: add missing doxygen comments
+
+        UART_DEVICE (
+            GPIO_TypeDef* tx_port, uint16_t tx_pin, 
+            GPIO_TypeDef* rx_port, uint16_t rx_pin, 
+            uint32_t baud = 115200
+        ) : _port(tx_port, tx_pin, rx_port, rx_pin, baud) {};
 
         /**
          * @brief 
@@ -49,48 +62,28 @@ namespace UART {
          * @return true 
          * @return false 
          */
-        bool init();
-        
-        /**
-         * @brief Set the Baud Rate object
-         */
-        void setBaudRate(uint32_t baud);
+        bool init() { return _port.init(); };
 
         /**
-         * @brief Get the Baud Rate object
+         * @brief 
+         * 
+         * @param msg 
+         * @param mode 
+         * 
+         * @return true 
+         * @return false 
          */
-        uint32_t getBaudRate() const;
+        bool print(const char* msg, TRANSMIT_MODE mode = BLOCKING);
 
         /**
-         * @brief Get the (mutable reference to) Handle object
+         * @brief 
+         * 
+         * @param msg 
+         * @param mode 
+         * 
+         * @return true 
+         * @return false 
          */
-        UART_HandleTypeDef* getHandle();
-
-        friend bool print(const char* msg, TRANSMIT_MODE mode, UART_PORT& port);
-        friend bool println(const char* msg, TRANSMIT_MODE mode, UART_PORT& port);
+        bool println(const char* msg, TRANSMIT_MODE mode = BLOCKING);
     };
-
-    /**
-     * @brief 
-     * 
-     * @param msg 
-     * @param mode 
-     * @param port 
-     * 
-     * @return true 
-     * @return false 
-     */
-    bool print(const char* msg, TRANSMIT_MODE mode, UART_PORT& port);
-
-    /**
-     * @brief 
-     * 
-     * @param msg 
-     * @param mode 
-     * @param port 
-     * 
-     * @return true 
-     * @return false 
-     */
-    bool println(const char* msg, TRANSMIT_MODE mode, UART_PORT& port);
 }
