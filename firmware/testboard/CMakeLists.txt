@@ -57,9 +57,6 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     Src/drivers/stepper_motor.cpp
     Src/drivers/button.cpp
 
-
-    # nucleul de labirint, comun cu CLI-ul de PC (tools/maze.cpp)
-    ../../common/maze_core.cpp
 )
 
 # Add include paths

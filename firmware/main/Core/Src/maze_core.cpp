@@ -1,28 +1,27 @@
 #include "maze_core.hpp"
 
-/*
- * Implementarea nucleului. Vezi maze_core.hpp pentru model si constrangeri
- * (fara STL/heap/exceptii; RAM minim in schimbul vitezei - cerinta proiect).
- * Algoritmul si motivele lui, in README.
+/**
+ * @file
+ * @brief Implementare MazeCore.
  */
 namespace MazeCore {
 
-constexpr int WORDS = (CELLS + 31) / 32;   /* 4 cuvinte de 32 biti pentru grila */
+/** @brief Cuvinte de 32 de biti pentru grila: ceil(CELLS / 32) = 4. */
+constexpr int WORDS = (CELLS + 31) / 32;
 
-/* ------------------------------------------------------------------ */
-/* biti in grila de pereti                                            */
-/* ------------------------------------------------------------------ */
-
+/** @brief Bitul idx din vectorul w: cuvantul [idx >> 5], bitul (idx & 31). */
 static inline bool testBit(const uint32_t* w, int idx)
 {
     return (w[idx >> 5] >> (idx & 31)) & 1u;
 }
 
+/** @brief Ridica bitul idx (perete pus / casuta vizitata). */
 static inline void setBit(uint32_t* w, int idx)
 {
     w[idx >> 5] |= (1u << (idx & 31));
 }
 
+/** @brief Coboara bitul idx (retrage un zid respins la verificare). */
 static inline void clearBit(uint32_t* w, int idx)
 {
     w[idx >> 5] &= ~(1u << (idx & 31));
@@ -33,15 +32,17 @@ bool cellWall(const Maze& m, int idx)
     return testBit(m.walls, idx);
 }
 
-/* ------------------------------------------------------------------ */
-/* solutia impachetata: 2 biti per pas, 4 pasi per byte               */
-/* ------------------------------------------------------------------ */
-
 int pathStep(const Maze& m, int i)
 {
     return (m.path[i >> 2] >> ((i & 3) * 2)) & 3;
 }
 
+/**
+ * @brief Scrie codul (0..3) pasului i in solutia impachetata.
+ *
+ * Read-modify-write pe byte-ul [i >> 2]: sterge intai cei 2 biti ai
+ * pasului, apoi ii pune codul - corect indiferent de valoarea dinainte.
+ */
 static inline void setPathStep(Maze& m, int i, int code)
 {
     uint8_t& b = m.path[i >> 2];
@@ -49,23 +50,28 @@ static inline void setPathStep(Maze& m, int i, int code)
     b = (uint8_t)((b & ~(3u << sh)) | ((unsigned)code << sh));
 }
 
-/* ------------------------------------------------------------------ */
-/* directiile, in ordinea codurilor de inclinare (fixate de proiect): */
-/* 0 = jos (+1,0), 1 = sus (-1,0), 2 = dreapta (0,+1), 3 = stanga     */
-/* Ordinea de parcurgere a vecinilor e MEREU ordinea codurilor, ca    */
-/* BFS-ul sa fie determinist si identic cu portul de referinta Python */
-/* ------------------------------------------------------------------ */
-
+/**
+ * @name Directiile, in ordinea codurilor de inclinare (fixate de proiect)
+ *
+ * 0 = jos (+1,0), 1 = sus (-1,0), 2 = dreapta (0,+1), 3 = stanga (0,-1);
+ * DR = rand, DC = coloana
+ * @{
+ */
 static const int8_t DR[4] = { 1, -1,  0,  0 };
 static const int8_t DC[4] = {  0,  0, 1, -1 };
+/** @} */
 
-/* ----------------------------------------------------------------------- */
-/* xorshift32 - Sursa noastra: (G. Marsaglia, "Xorshift RNGs", J. Software */
-/* 8(14), 2003, p. 4) - 4 bytes de stare, perioada 2^32 - 1.               */
-/* Starea 0 e punct fix (ar produce doar 0), de aceea generate()           */
-/* inlocuieste seed==0 cu 1.                                               */
-/* ----------------------------------------------------------------------- */
-
+/**
+ * @brief xorshift32 - 4 bytes de stare, perioada 2^32 - 1.
+ *
+ * Sursa noastra: G. Marsaglia, "Xorshift RNGs", Journal of Statistical
+ * Software 8(14), 2003, p. 4 - tripletul de shift-uri (13, 17, 5).
+ * Starea 0 e punct fix (ar produce numai zerouri); de aceea generate()
+ * inlocuieste seed == 0 cu 1.
+ *
+ * @param[in,out] s starea, avansata pe loc
+ * @return noua stare, folosita direct ca numarul aleator curent
+ */
 static inline uint32_t xorshift32(uint32_t& s)
 {
     s ^= s << 13;
@@ -74,12 +80,14 @@ static inline uint32_t xorshift32(uint32_t& s)
     return s;
 }
 
-/* ------------------------------------------------------------------ */
-/* flood-fill din START peste celulele libere.                        */
-/* Intoarce true daca a atins exact `expectedFree` celule, adica      */
-/* tot spatiul liber e conectat (deci si finalul e accesibil).        */
-/* ------------------------------------------------------------------ */
-
+/**
+ * @brief Flood-fill (BFS) din (0,0) peste casutele libere
+ *
+ * @param[in] m            grila curenta
+ * @param[in] expectedFree cate casute libere exista in total in grila
+ * @return true daca BFS-ul a atins exact expectedFree casute - adica tot
+ *         spatiul liber e conectat, deci si finalul ramane accesibil din start
+ */
 static bool allFreeConnected(const Maze& m, int expectedFree)
 {
     uint32_t visited[WORDS] = { 0u, 0u, 0u, 0u };
@@ -106,13 +114,27 @@ static bool allFreeConnected(const Maze& m, int expectedFree)
     return seen == expectedFree;
 }
 
-/* ------------------------------------------------------------------ */
-/* BFS start -> final; scrie solutia impachetata si path_len.         */
-/* Reconstructia drumului se face in 2 treceri inapoi (intai          */
-/* masoara lungimea, apoi scrie codul fiecarui pas direct la pozitia  */
-/* lui finala), ca sa nu fie nevoie de un buffer intermediar          */
-/* ------------------------------------------------------------------ */
-
+/**
+ * @brief BFS start -> final: umple path (impachetat), path_len si solvable.
+ *
+ * prevdir[c] = codul directiei prin care BFS a atins prima data casuta c
+ * (adica c = casuta-precedenta + DELTA[cod]); ramane nescris pentru START.
+ * BFS pe graf neponderat gaseste un drum minim; intre drumuri minime de
+ * lungime egala alege determinist, dupa ordinea vecinilor (vezi DR/DC).
+ *
+ * Reconstructia merge inapoi de la GOAL, prin cur -= DELTA[prevdir[cur]],
+ * si se face in 2 treceri (intai masoara lungimea, apoi scrie codul
+ * fiecarui pas direct la pozitia lui finala), ca sa nu fie nevoie de un
+ * buffer intermediar de inca MAX_PATH bytes.
+ *
+ * path se zerouieste integral inainte de scriere: bitii de dupa ultimul
+ * pas raman 0, deci structura e comparabila byte-la-byte intre platforme.
+ *
+ * Daca finalul n-ar fi accesibil (dupa generate() nu se intampla, prin
+ * constructie): solvable = 0, path_len = 0, path ramane tot 0.
+ *
+ * Stiva proprie: prevdir (100B) + visited (16B) + queue (100B) + scalari.
+ */
 static void solve(Maze& m)
 {
     uint8_t  prevdir[CELLS];
@@ -127,8 +149,8 @@ static void solve(Maze& m)
     while (head < tail) {
         int cur = queue[head++];
         if (cur == GOAL) {
-            reached = true; 
-            break; 
+            reached = true;
+            break;
         }
         int r = cur / N, c = cur % N;
         for (int d = 0; d < 4; ++d) {
@@ -166,28 +188,27 @@ static void solve(Maze& m)
     }
 }
 
-/* ------------------------------------------------------------------ */
-/* generare                                                           */
-/*                                                                    */
-/* Pornim cu toate cele 100 de celule libere si incercam sa zidim     */
-/* celulele una cate una, intr-o ordine amestecata (Fisher-Yates).    */
-/* Un zid ramane doar daca dupa el TOT spatiul liber ramane conectat  */
-/* (verificat cu flood-fill). Start si final nu se zidesc niciodata.  */
-/*                                                                    */
-/* Cost: O(CELLS) flood-fill-uri a cate O(CELLS) pasi ~ 10^4 operatii */
-/* simple;                                                            */
-/* ------------------------------------------------------------------ */
-
+/**
+ * Implementarea generarii - contractul e pe declaratie, in maze_core.hpp.
+ *
+ * Pornim cu toate cele 100 de casute libere si incercam sa le zidim una
+ * cate una, in ordinea amestecata din order; un zid ramane doar daca dupa
+ * el tot spatiul liber ramane conectat (allFreeConnected), altfel se
+ * retrage imediat. Start si final nu se zidesc niciodata - deci labirintul
+ * iese mereu rezolvabil.
+ *
+ * Cost: O(CELLS) flood-fill-uri a cate O(CELLS) pasi ~ 10^4 operatii
+ * simple. Stiva de varf: 408B masurati (sursa in nota din header) =
+ * order (100B) + frame-urile ajunse inline ale lui allFreeConnected /
+ * solve + scalari.
+ */
 void generate(Maze& m, uint32_t seed)
 {
     if (seed == 0u) seed = 1u;      /* vezi comentariul xorshift32 */
     m.seed = seed;
     uint32_t rng = seed;
 
-    /* permutarea ordinii de zidire: Fisher-Yates modern (Knuth, TAOCP
-     * vol. 2, alg. P). Indexul aleator e luat cu `% (i+1)`: biasul de
-     * modulo exista, dar la i<=99 e de ordinul 10^-8 (2^32 % 100 = 96
-     * resturi in plus la 4,3 miliarde) - irelevant aici, documentat. */
+    /* permutarea ordinii de zidire (Fisher-Yates) */
     uint8_t order[CELLS];
     for (int i = 0; i < CELLS; ++i) order[i] = (uint8_t)i;
     for (int i = CELLS - 1; i > 0; --i) {
@@ -212,15 +233,17 @@ void generate(Maze& m, uint32_t seed)
     solve(m);
 }
 
-/* ------------------------------------------------------------------ */
-/* serializare JSON "tilting-maze" prin callback, fara stdio.         */
-/* ------------------------------------------------------------------ */
-
+/** @brief Emite sirul s, octet cu octet, prin put. */
 static void putStr(const char* s, PutFn put, void* ctx)
 {
     while (*s) put(*s++, ctx);
 }
 
+/**
+ * @brief Emite v in zecimal, fara semn si fara zerouri de umplutura.
+ *
+ * Cifrele se strang in buf de la coada si se emit in ordine inversa.
+ */
 static void putU32(uint32_t v, PutFn put, void* ctx)
 {
     char buf[10];
@@ -232,6 +255,7 @@ static void putU32(uint32_t v, PutFn put, void* ctx)
     while (n > 0) put(buf[--n], ctx);
 }
 
+/** @brief Numara peretii ridicati: populatia de biti 1 din walls. */
 static int countWalls(const Maze& m)
 {
     int count = 0;
@@ -240,10 +264,14 @@ static int countWalls(const Maze& m)
     return count;
 }
 
+/**
+ * Implementarea serializarii - formatul complet, cu exemplu, e pe
+ * declaratie in maze_core.hpp. Totul iese prin put(), octet cu octet.
+ */
 void writeJson(const Maze& m, PutFn put, void* ctx)
 {
     int walls = countWalls(m);
-    int chips = (walls + 2) / 3;    /* ceil(walls/3): 3 motoare per TLE94112 */
+    int chips = (walls + 2) / 3;
 
     putStr("{\n  \"format\": \"tilting-maze-v3\",\n  \"size\": ", put, ctx);
     putU32((uint32_t)N, put, ctx);
