@@ -37,6 +37,7 @@ BUILD_DIR = build
 # C sources
 C_SOURCES = $(shell find Core/Src \
 			Drivers/STM32F1xx_HAL_Driver/Src \
+			Drivers/UART/Src \
 			-name '*.c' \
 			! -name '*_template.c')
 
@@ -111,7 +112,8 @@ C_INCLUDES =  \
 -IDrivers/STM32F1xx_HAL_Driver/Inc/Legacy \
 -IDrivers/STM32F1xx_HAL_Driver/Inc \
 -IDrivers/CMSIS/Device/ST/STM32F1xx/Include \
--IDrivers/CMSIS/Include
+-IDrivers/CMSIS/Include \
+-IDrivers/UART/Inc
 
 
 # compile gcc flags
