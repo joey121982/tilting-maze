@@ -85,5 +85,7 @@ namespace UART {
          * @return false 
          */
         bool println(const char* msg, TRANSMIT_MODE mode = BLOCKING);
+
+        // TODO: add bool write(const void* buf, size_t nbyte)
     };
 }
