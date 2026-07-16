@@ -1,6 +1,4 @@
-// TODO:
-//          if you think any of my comments are redundant, remove them. -cosmin
-//
+// TODO:    if you think any of my comments are redundant, remove them. -cosmin
 // TODO:    changing the maze size from 10x10 to 12x12 in the generator seems to mostly fix
 //          the "thick exterior walls" issue. look into this further
 
@@ -9,7 +7,7 @@
 namespace MazeCore {
 
 
-/** @brief Returns the bit representing the given coordonate.
+/** @brief Returns the bit representing the given coordinate.
  *
  * @param[in] words array of words representing the maze
  * @param[in] coords the cell's coordinates
@@ -114,10 +112,11 @@ static bool allFreeConnected(const Maze& maze, int expected_free)
 static void solve(Maze& maze)
 {
     uint8_t  prevdir[CELL_COUNT]; // remembers the direction from which we came from
-    uint32_t visited[WORD_COUNT] = { 0u, 0u, 0u, 0u };
+    uint32_t visited[WORD_COUNT];
     vec2     queue[CELL_COUNT]; // a queue of cell coordinates to visit, for the BFS
     int head = 0, tail = 0;
 
+    for (int w = 0; w < WORD_COUNT; ++w) visited[w] = 0u;
     queue[tail++] = START_COORDS;
     setCell(visited, START_COORDS);
 
