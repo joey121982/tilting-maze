@@ -1,4 +1,3 @@
-// TODO:    if you think any of my comments are redundant, remove them. -cosmin
 // TODO:    changing the maze size from 10x10 to 12x12 in the generator seems to mostly fix
 //          the "thick exterior walls" issue. look into this further
 
@@ -20,19 +19,19 @@ namespace MazeCore {
  */
 static inline bool testCell(const uint32_t* words, vec2 coords)
 {
-    int idx = toLinear(coords);
+    uint8_t idx = toLinear(coords);
     return (words[idx >> 5] >> (idx & 31)) & 1u;
 }
 
 static inline void setCell(uint32_t* words, vec2 coords)
 {
-    int idx = toLinear(coords);
+    uint8_t idx = toLinear(coords);
     words[idx >> 5] |= (1u << (idx & 31));
 }
 
 static inline void clearCell(uint32_t* words, vec2 coords)
 {
-    int idx = toLinear(coords);
+    uint8_t idx = toLinear(coords);
     words[idx >> 5] &= ~(1u << (idx & 31));
 }
 
@@ -51,7 +50,7 @@ bool cellWall(const Maze& maze, vec2 coords)
     return testCell(maze.walls, coords);
 }
 
-int pathStep(const Maze& maze, int i)
+uint8_t pathStep(const Maze& maze, uint8_t i)
 {
     return (maze.path[i >> 2] >> ((i & 3) * 2)) & 3;
 }
@@ -85,18 +84,19 @@ static inline uint32_t xorshift32(uint32_t& seed)
  */
 static bool allFreeConnected(const Maze& maze, int expected_free)
 {
-    uint32_t visited[WORD_COUNT]; // a bitset to keep track of visited cells, like a 0/1 matrix which remembers which cells have been visited
-    vec2     queue[CELL_COUNT];
-    int head = 0, tail = 0;
+    uint32_t    visited[WORD_COUNT]; // visited cell history bitset
+    vec2        queue[CELL_COUNT];
+    uint8_t     head = 0;
+    uint8_t     tail = 0;
 
-    for (int w = 0; w < WORD_COUNT; ++w) visited[w] = 0u;
+    for (uint8_t w = 0; w < WORD_COUNT; ++w) visited[w] = 0u;
     queue[tail++] = START_COORDS;
     setCell(visited, START_COORDS);
-    int seen = 1;
+    uint8_t seen = 1;
 
-    while (head < tail) { // basic ah BFS
+    while (head < tail) { // basic BFS
         vec2 curr_cell = queue[head++];
-        for (int d = 0; d < 4; ++d) {
+        for (uint8_t d = 0; d < 4; ++d) {
             vec2 next_cell = curr_cell + DIRECTION_VECTOR[d];
             if (next_cell.r < 0 || next_cell.r >= MAZE_SIDE_LEN || next_cell.c < 0 || next_cell.c >= MAZE_SIDE_LEN) continue;
             if (testCell(maze.walls, next_cell) || testCell(visited, next_cell)) continue;
@@ -111,12 +111,13 @@ static bool allFreeConnected(const Maze& maze, int expected_free)
 /** @brief solves the maze */
 static void solve(Maze& maze)
 {
-    uint8_t  prevdir[CELL_COUNT]; // remembers the direction from which we came from
+    uint8_t  prevdir[CELL_COUNT];
     uint32_t visited[WORD_COUNT];
-    vec2     queue[CELL_COUNT]; // a queue of cell coordinates to visit, for the BFS
-    int head = 0, tail = 0;
+    vec2     queue[CELL_COUNT]; // BFS queue
+    uint8_t head = 0;
+    uint8_t tail = 0;
 
-    for (int w = 0; w < WORD_COUNT; ++w) visited[w] = 0u;
+    for (uint8_t w = 0; w < WORD_COUNT; ++w) visited[w] = 0u;
     queue[tail++] = START_COORDS;
     setCell(visited, START_COORDS);
 
@@ -128,7 +129,7 @@ static void solve(Maze& maze)
             break;
         }
 
-        for (int d = 0; d < 4; ++d) { // directions are coded, each 0-3 represents a cardinal direction
+        for (uint8_t d = 0; d < 4; ++d) {
             vec2 next_cell = curr_cell + DIRECTION_VECTOR[d];
             if (next_cell.r < 0 || next_cell.r >= MAZE_SIDE_LEN || next_cell.c < 0 || next_cell.c >= MAZE_SIDE_LEN) continue;
             if (testCell(maze.walls, next_cell) || testCell(visited, next_cell)) continue;
@@ -143,24 +144,24 @@ static void solve(Maze& maze)
     for (unsigned i = 0; i < sizeof(maze.path); ++i) maze.path[i] = 0u;
     if (!reached) return;
 
-    int len = 0;
+    uint8_t len = 0;
     vec2 curr_cell = GOAL_COORDS;
-    while (!(curr_cell == START_COORDS)) { // this loops counts the length
+    while (!(curr_cell == START_COORDS)) {
         curr_cell = curr_cell - DIRECTION_VECTOR[prevdir[toLinear(curr_cell)]];
         ++len;
     }
     maze.path_len = (uint8_t)len;
 
     curr_cell = GOAL_COORDS;
-    int i = len;
-    while (!(curr_cell == START_COORDS)) { // this loops constructs the path in reverse order, without a buffer, RAM preservation
+    uint8_t i = len;
+    while (!(curr_cell == START_COORDS)) {
         int direction = prevdir[toLinear(curr_cell)];
         setPathStep(maze, --i, direction);
         curr_cell = curr_cell - DIRECTION_VECTOR[direction];
     }
 }
 
-/** @brief it initializez (builds and solves) a maze struct */
+/** @brief it initializes (builds and solves) a maze struct */
 void generate(Maze& maze, uint32_t seed)
 {
     if (seed == 0u) seed = 1u;
@@ -168,16 +169,18 @@ void generate(Maze& maze, uint32_t seed)
     uint32_t rng = seed;
 
     uint8_t order[CELL_COUNT];
-    for (int i = 0; i < CELL_COUNT; ++i) order[i] = (uint8_t)i;
-    for (int i = CELL_COUNT - 1; i > 0; --i) {
-        int j = (int)(xorshift32(rng) % (uint32_t)(i + 1));
-        uint8_t t = order[i]; order[i] = order[j]; order[j] = t;
+    for (uint8_t i = 0; i < CELL_COUNT; ++i) order[i] = (uint8_t)i;
+    for (uint8_t i = CELL_COUNT - 1; i > 0; --i) {
+        uint32_t j = (uint32_t)(xorshift32(rng) % (uint32_t)(i + 1));
+        uint8_t t = order[i]; 
+        order[i] = order[j]; 
+        order[j] = t;
     }
 
-    for (int w = 0; w < WORD_COUNT; ++w) maze.walls[w] = 0u;
+    for (uint8_t w = 0; w < WORD_COUNT; ++w) maze.walls[w] = 0u;
 
-    int freeCells = CELL_COUNT;
-    for (int k = 0; k < CELL_COUNT; ++k) {
+    uint8_t freeCells = CELL_COUNT;
+    for (uint8_t k = 0; k < CELL_COUNT; ++k) {
         vec2 coords = fromLinear(order[k]);
         if (coords == START_COORDS || coords == GOAL_COORDS) continue;
         setCell(maze.walls, coords);

@@ -5,31 +5,27 @@
 namespace MazeCore {
 
 struct vec2 {
-    int8_t r, c;
+    int8_t r;   
+    int8_t c;
 
     constexpr vec2(int8_t row, int8_t col) : r(row), c(col) {};
     vec2() {}; // we dont need constexpr here, it doesnt run at compile time
 
     vec2 operator+(const vec2& other) const { return vec2(r + other.r, c + other.c); }
-
     vec2 operator-(const vec2& other) const { return vec2(r - other.r, c - other.c); }
-
     bool operator==(const vec2& other) const { return r == other.r && c == other.c; }
 };
 
-constexpr int MAZE_SIDE_LEN = 10;
-
-constexpr int CELL_COUNT = MAZE_SIDE_LEN * MAZE_SIDE_LEN;
+constexpr uint8_t MAZE_SIDE_LEN = 10;
+constexpr uint8_t CELL_COUNT = MAZE_SIDE_LEN * MAZE_SIDE_LEN;
 
 /** @brief Number of words needed to represent the maze.
  *  Our maze is comprised of 100 reachable cells, so we need 100 bits to represent the walls. We use a 32-bit (unsigned) integer, known as a word from now on,
  *  to represent 32 cells out of our 100. Therefore, we need 4 words (4 * 32 = 128 bits) to hold the entire maze. As you can see, we have 28 extra bits left,
  *  which are left unused.
  */
-constexpr int WORD_COUNT = (CELL_COUNT + 31) / 32;
-
+constexpr uint8_t WORD_COUNT = (CELL_COUNT + 31) / 32;
 constexpr vec2 START_COORDS = vec2(0, 0);
-
 constexpr vec2 GOAL_COORDS  = vec2(MAZE_SIDE_LEN - 1, MAZE_SIDE_LEN - 1);
 
 struct Maze {
@@ -41,7 +37,6 @@ struct Maze {
 };
 
 vec2 fromLinear(const uint8_t idx);
-
 uint8_t toLinear(const vec2& v);
 
 /**
@@ -64,7 +59,7 @@ bool cellWall(const Maze& maze, vec2 coords);
  *
  * @warning No bounds checking on i.
  */
-int pathStep(const Maze& maze, int i);
+uint8_t pathStep(const Maze& maze, uint8_t i);
 
 /**
  * @brief Generate a random maze using seed
