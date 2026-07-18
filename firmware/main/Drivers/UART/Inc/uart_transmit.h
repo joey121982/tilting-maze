@@ -16,7 +16,7 @@ namespace UART {
     /** @brief UART port definition class */
     class UART_PORT {
     private:
-        UART_HandleTypeDef _huart; // in stm32f1xx_hal_uart.h, same with its Init struct
+        UART_HandleTypeDef _huart;  // in stm32f1xx_hal_uart.h, same with its Init struct
 
         GPIO_TypeDef* _tx_port;
         uint16_t _tx_pin;
