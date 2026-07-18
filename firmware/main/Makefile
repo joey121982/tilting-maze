@@ -38,6 +38,7 @@ BUILD_DIR = build
 C_SOURCES = $(shell find Core/Src \
 			Drivers/STM32F1xx_HAL_Driver/Src \
 			Drivers/UART/Src \
+			Drivers/TLE94112/Src \
 			-name '*.c' \
 			! -name '*_template.c')
 
@@ -45,6 +46,7 @@ C_SOURCES = $(shell find Core/Src \
 CXX_SOURCES = 	$(shell find Core/Src \
 				Drivers/STM32F1xx_HAL_Driver/Src \
 				Drivers/UART/Src \
+				Drivers/TLE94112/Src \
 				-name '*.cpp' \
 				! -name '*_template.cpp')
 
@@ -114,7 +116,8 @@ C_INCLUDES =  \
 -IDrivers/STM32F1xx_HAL_Driver/Inc \
 -IDrivers/CMSIS/Device/ST/STM32F1xx/Include \
 -IDrivers/CMSIS/Include \
--IDrivers/UART/Inc
+-IDrivers/UART/Inc \
+-IDrivers/TLE94112/Inc
 
 
 # compile gcc flags
