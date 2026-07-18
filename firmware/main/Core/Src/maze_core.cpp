@@ -1,6 +1,3 @@
-// TODO:    changing the maze size from 10x10 to 12x12 in the generator seems to mostly fix
-//          the "thick exterior walls" issue. look into this further
-
 #include "maze_core.h"
 
 namespace MazeCore {
@@ -84,7 +81,7 @@ static inline uint32_t xorshift32(uint32_t& seed)
  */
 static bool allFreeConnected(const Maze& maze, int expected_free)
 {
-    uint32_t    visited[WORD_COUNT]; // visited cell history bitset
+    uint32_t    visited[WORD_COUNT];
     vec2        queue[CELL_COUNT];
     uint8_t     head = 0;
     uint8_t     tail = 0;
@@ -94,7 +91,7 @@ static bool allFreeConnected(const Maze& maze, int expected_free)
     setCell(visited, START_COORDS);
     uint8_t seen = 1;
 
-    while (head < tail) { // basic BFS
+    while (head < tail) {
         vec2 curr_cell = queue[head++];
         for (uint8_t d = 0; d < 4; ++d) {
             vec2 next_cell = curr_cell + DIRECTION_VECTOR[d];
@@ -113,7 +110,7 @@ static void solve(Maze& maze)
 {
     uint8_t  prevdir[CELL_COUNT];
     uint32_t visited[WORD_COUNT];
-    vec2     queue[CELL_COUNT]; // BFS queue
+    vec2     queue[CELL_COUNT];
     uint8_t head = 0;
     uint8_t tail = 0;
 
@@ -161,7 +158,60 @@ static void solve(Maze& maze)
     }
 }
 
-/** @brief it initializes (builds and solves) a maze struct */
+/** @brief Returns true if the coordinate is a wall OR if it is outside the maze bounds 
+ *  (since the physical outer border of the maze acts as a solid wall).
+ */
+static inline bool isWallOrBorder(const uint32_t* words, int8_t r, int8_t c)
+{
+    // Any out-of-bounds cell is treated as a solid border wall
+    if (r < 0 || r >= MAZE_SIDE_LEN || c < 0 || c >= MAZE_SIDE_LEN) {
+        return true; 
+    }
+    return testCell(words, vec2(r, c));
+}
+
+/** @brief Checks if transforming the cell at 'coords' into a wall
+ *  would form a 2x2 block of walls.
+ *  It checks the 4 possible 2x2 quadrants that contain this cell.
+ *  Includes boundary checks to prevent out-of-bounds access.
+ */
+static bool wouldCreate2x2Wall(const uint32_t* words, vec2 coords)
+{
+    int8_t r = coords.r;
+    int8_t c = coords.c;
+
+    // Top-Left quadrant
+    if (isWallOrBorder(words, r - 1, c - 1) &&
+        isWallOrBorder(words, r - 1, c)     &&
+        isWallOrBorder(words, r, c - 1)) {
+        return true;
+    }
+
+    // Top-Right quadrant
+    if (isWallOrBorder(words, r - 1, c)     &&
+        isWallOrBorder(words, r - 1, c + 1) &&
+        isWallOrBorder(words, r, c + 1)) {
+        return true;
+    }
+
+    // Bottom-Left quadrant
+    if (isWallOrBorder(words, r, c - 1)     &&
+        isWallOrBorder(words, r + 1, c - 1) &&
+        isWallOrBorder(words, r + 1, c)) {
+        return true;
+    }
+
+    // Bottom-Right quadrant
+    if (isWallOrBorder(words, r, c + 1)     &&
+        isWallOrBorder(words, r + 1, c)     &&
+        isWallOrBorder(words, r + 1, c + 1)) {
+        return true;
+    }
+
+    return false;
+}
+
+/** @brief Function that initializes (builds and solves) a maze struct */
 void generate(Maze& maze, uint32_t seed)
 {
     if (seed == 0u) seed = 1u;
@@ -183,6 +233,7 @@ void generate(Maze& maze, uint32_t seed)
     for (uint8_t k = 0; k < CELL_COUNT; ++k) {
         vec2 coords = fromLinear(order[k]);
         if (coords == START_COORDS || coords == GOAL_COORDS) continue;
+        if (wouldCreate2x2Wall(maze.walls, coords)) continue;
         setCell(maze.walls, coords);
         if (allFreeConnected(maze, freeCells - 1)) {
             --freeCells;

@@ -1,0 +1,20 @@
+Grid size is currently set to: 10x10
+
+Processed: 10000000 / 10000000 (100.00%) | Speed: 269901 seeds/sec
+=========================================
+ SEARCH COMPLETED in 37.05 seconds
+ Average speed: 269899 seeds/sec
+=========================================
+TOP 10 LONGEST SOLVABLE PATHS:
+-----------------------------------------
+  #1 | Seed:    6064625 | Path Length: 48 steps
+  #2 | Seed:    9004535 | Path Length: 48 steps
+  #3 | Seed:    6990733 | Path Length: 48 steps
+  #4 | Seed:    2341574 | Path Length: 48 steps
+  #5 | Seed:    2178610 | Path Length: 48 steps
+  #6 | Seed:    5927152 | Path Length: 46 steps
+  #7 | Seed:    6245960 | Path Length: 46 steps
+  #8 | Seed:    5649788 | Path Length: 46 steps
+  #9 | Seed:    5580056 | Path Length: 46 steps
+  #10 | Seed:    5518127 | Path Length: 46 steps
+=========================================
