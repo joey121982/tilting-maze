@@ -56,6 +56,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     Src/drivers/tle94112.cpp
     Src/drivers/stepper_motor.cpp
     Src/drivers/button.cpp
+
 )
 
 # Add include paths
