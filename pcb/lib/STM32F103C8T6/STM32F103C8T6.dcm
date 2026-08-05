@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32F103C8T6
+D Medium-density performance line Arm-based 32-bit MCU with 64 or 128 KB Flash, USB, CAN, 7 timers, 2 ADCs, 9 com. interfaces
+K
+F https://www.st.com/resource/en/datasheet/stm32f103c8.pdf
+$ENDCMP
+#
+#End Doc Library
