@@ -32,7 +32,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "daughterboard.kicad_pro",
+    "filename": "motherboard.kicad_pro",
     "version": 3
   },
   "net_settings": {
