@@ -2237,7 +2237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:52207-0633"
 			(at 143.51 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2325,7 +2325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:52207-0633"
 			(at 194.31 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2413,7 +2413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:52207-0633"
 			(at 40.64 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -2501,7 +2501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:52207-0633"
 			(at 40.64 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -2589,7 +2589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:52207-0633"
 			(at 91.44 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2677,7 +2677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:52207-0633"
 			(at 194.31 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -2765,7 +2765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:52207-0633"
 			(at 91.44 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -2853,7 +2853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:52207-0633"
 			(at 143.51 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2941,7 +2941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:52207-0633"
 			(at 92.71 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3029,7 +3029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:52207-0633"
 			(at 92.71 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3117,7 +3117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:52207-0633"
 			(at 142.24 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -3205,7 +3205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:52207-0633"
 			(at 143.51 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3293,7 +3293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:52207-0633"
 			(at 40.64 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3381,7 +3381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:52207-0633"
 			(at 194.31 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3469,7 +3469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:52207-0633"
 			(at 194.31 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3557,7 +3557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:52207-0633"
 			(at 142.24 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3645,7 +3645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:52207-0633"
 			(at 194.31 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3733,7 +3733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:52207-0633"
 			(at 142.24 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3821,7 +3821,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:52207-0633"
 			(at 194.31 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3909,7 +3909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:52207-0633"
 			(at 91.44 41.91 0)
 			(hide yes)
 			(show_name no)

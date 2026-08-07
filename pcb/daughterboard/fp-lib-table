@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "A_HANU_FOOTPRINTS") (type "KiCad") (uri "/home/hanu/work/A_HANU_LIBS/A_HANU_FOOTPRINTS.pretty") (options "") (descr ""))
+)

@@ -4797,7 +4797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:RESC1608X50N"
 			(at 35.56 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4957,7 +4957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:CAPC0402X22N"
 			(at 176.53 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5195,7 +5195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:CAPC0402X22N"
 			(at 256.54 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5353,7 +5353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P600X115-25N"
+		(property "Footprint" "A_HANU_FOOTPRINTS:TLE94112ESXUMA1"
 			(at 266.7 135.56 0)
 			(hide yes)
 			(show_name no)
@@ -5644,7 +5644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:RESC1608X50N"
 			(at 66.04 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5802,7 +5802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P600X115-25N"
+		(property "Footprint" "A_HANU_FOOTPRINTS:TLE94112ESXUMA1"
 			(at 71.12 135.56 0)
 			(hide yes)
 			(show_name no)
@@ -6015,7 +6015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:CAPC0402X22N"
 			(at 237.49 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6097,7 +6097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:CAPC0402X22N"
 			(at 114.3 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6179,7 +6179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:CAPAE430X550N"
 			(at 261.62 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6261,7 +6261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:CAPC0402X22N"
 			(at 60.96 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6422,7 +6422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:CAPAE430X550N"
 			(at 138.43 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6658,7 +6658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P600X115-25N"
+		(property "Footprint" "A_HANU_FOOTPRINTS:TLE94112ESXUMA1"
 			(at 137.16 135.56 0)
 			(hide yes)
 			(show_name no)
@@ -6869,7 +6869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P600X115-25N"
+		(property "Footprint" "A_HANU_FOOTPRINTS:TLE94112ESXUMA1"
 			(at 200.66 135.56 0)
 			(hide yes)
 			(show_name no)
@@ -7082,7 +7082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:CAPAE430X550N"
 			(at 200.66 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -7164,7 +7164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:CAPC0402X22N"
 			(at 195.58 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -7480,7 +7480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:CAPC0402X22N"
 			(at 41.91 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -7562,7 +7562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A_HANU_FOOTPRINTS:CAPC0402X22N"
 			(at 133.35 106.68 0)
 			(hide yes)
 			(show_name no)
