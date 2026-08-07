@@ -5644,7 +5644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:RESC1608X50N"
+		(property "Footprint" "A_HANU_FOOTPRINTS:T491A"
 			(at 66.04 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6179,7 +6179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:CAPAE430X550N"
+		(property "Footprint" "A_HANU_FOOTPRINTS:T491A"
 			(at 261.62 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6422,7 +6422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:CAPAE430X550N"
+		(property "Footprint" "A_HANU_FOOTPRINTS:T491A"
 			(at 138.43 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7082,7 +7082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:CAPAE430X550N"
+		(property "Footprint" "A_HANU_FOOTPRINTS:T491A"
 			(at 200.66 105.41 0)
 			(hide yes)
 			(show_name no)
