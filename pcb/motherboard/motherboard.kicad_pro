@@ -429,7 +429,7 @@
         "uuid": "dd0de6d4-7020-4d4a-9487-5c8f4729c64b"
       }
     ],
-    "used_designators": "SW1,R1-2,J1-2,C1-10,#PWR1-6,Y1-2,U1",
+    "used_designators": "IC1-4,SW1,R1-3,J1-2,C1-14,#PWR1-7,Y1-2,U1",
     "variants": []
   },
   "sheets": [
@@ -440,6 +440,10 @@
     [
       "a830f3d3-7fbb-44d2-b6cd-50e692501e93",
       "STM32"
+    ],
+    [
+      "fa1e8dc4-8bff-4e20-ab5d-26e522bb2dde",
+      "daughterboard_selector"
     ]
   ],
   "text_variables": {},
