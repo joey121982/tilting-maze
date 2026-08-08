@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC138BQ,115
+D 74HC(T)138 - 3-to-8 line decoder/demultiplexer; inverting@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT138.pdf
+$ENDCMP
+#
+#End Doc Library
