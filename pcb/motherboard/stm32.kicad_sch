@@ -4464,7 +4464,7 @@
 		(uuid "204bf92d-4d3e-479a-8ce8-02524648225d")
 	)
 	(hierarchical_label "ADDR0"
-		(shape input)
+		(shape output)
 		(at 205.74 72.39 0)
 		(effects
 			(font
@@ -4475,7 +4475,7 @@
 		(uuid "24fe52ad-880e-46cb-8bba-aa7cef6e0025")
 	)
 	(hierarchical_label "SPI_CS"
-		(shape input)
+		(shape output)
 		(at 205.74 97.79 0)
 		(effects
 			(font
@@ -4486,7 +4486,7 @@
 		(uuid "2fdf00da-66b4-488c-afed-2005e7fbd78e")
 	)
 	(hierarchical_label "ADDR1"
-		(shape input)
+		(shape output)
 		(at 205.74 74.93 0)
 		(effects
 			(font
@@ -4497,7 +4497,7 @@
 		(uuid "3fc925b8-7210-47ae-909f-69fdf30636f0")
 	)
 	(hierarchical_label "PB8"
-		(shape input)
+		(shape output)
 		(at 205.74 80.01 0)
 		(effects
 			(font
@@ -4541,7 +4541,7 @@
 		(uuid "6e403c87-26ce-4643-a436-ae6e66c738c2")
 	)
 	(hierarchical_label "SPI_MOSI"
-		(shape input)
+		(shape output)
 		(at 205.74 105.41 0)
 		(effects
 			(font
@@ -4552,7 +4552,7 @@
 		(uuid "709bc07a-ebcc-4f85-b55c-1ecd8a350551")
 	)
 	(hierarchical_label "UART_TX"
-		(shape input)
+		(shape output)
 		(at 205.74 107.95 0)
 		(effects
 			(font
@@ -4563,7 +4563,7 @@
 		(uuid "7159b8c6-f8d3-4fe8-8877-43e80e92c399")
 	)
 	(hierarchical_label "I2C_SDA"
-		(shape input)
+		(shape output)
 		(at 205.74 87.63 0)
 		(effects
 			(font
@@ -4574,7 +4574,7 @@
 		(uuid "826b5f01-b876-4515-adb9-d4a3d3781746")
 	)
 	(hierarchical_label "ADDR2"
-		(shape input)
+		(shape output)
 		(at 205.74 77.47 0)
 		(effects
 			(font
@@ -4585,7 +4585,7 @@
 		(uuid "8abe9dcd-8366-463e-bbf2-1a4b5dd20916")
 	)
 	(hierarchical_label "PB9"
-		(shape input)
+		(shape output)
 		(at 205.74 82.55 0)
 		(effects
 			(font
@@ -4596,7 +4596,7 @@
 		(uuid "a57d9737-c258-4f74-ad19-5bf1dc3966a8")
 	)
 	(hierarchical_label "SPI_CLK"
-		(shape input)
+		(shape output)
 		(at 205.74 100.33 0)
 		(effects
 			(font
@@ -4618,7 +4618,7 @@
 		(uuid "b0211b35-0dbb-4c83-9925-5b7f03850e0b")
 	)
 	(hierarchical_label "I2C_SCL"
-		(shape input)
+		(shape output)
 		(at 205.74 85.09 0)
 		(effects
 			(font
