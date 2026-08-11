@@ -280,7 +280,7 @@
 			)
 		)
 		(pin "CS_1" output
-			(at 119.38 38.1 90)
+			(at 137.16 40.64 0)
 			(uuid "3eeacf70-b6b2-433b-a530-01f866780ef4")
 			(effects
 				(font
@@ -290,7 +290,7 @@
 			)
 		)
 		(pin "CS_2" output
-			(at 121.92 38.1 90)
+			(at 137.16 53.34 0)
 			(uuid "1bf125fb-5f4a-46b9-ad39-655dd5f6bfdc")
 			(effects
 				(font
@@ -300,7 +300,7 @@
 			)
 		)
 		(pin "CS_3" output
-			(at 124.46 38.1 90)
+			(at 137.16 66.04 0)
 			(uuid "19c8ea53-caa1-474e-80fa-7809c0f308f6")
 			(effects
 				(font
@@ -310,13 +310,13 @@
 			)
 		)
 		(pin "CS_4" output
-			(at 127 38.1 90)
+			(at 116.84 76.2 270)
 			(uuid "a718c6c8-2fee-450d-bdbc-2ad7eecc3817")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "GLOBAL_EN" input
@@ -330,7 +330,7 @@
 			)
 		)
 		(pin "MISO_0" output
-			(at 137.16 45.72 0)
+			(at 119.38 38.1 90)
 			(uuid "1161f162-7d4d-4acc-8963-6fb91adb3af2")
 			(effects
 				(font
@@ -340,7 +340,7 @@
 			)
 		)
 		(pin "MISO_1" output
-			(at 137.16 48.26 0)
+			(at 137.16 43.18 0)
 			(uuid "f8b057af-04ef-44b2-8abc-6f952c000cfa")
 			(effects
 				(font
@@ -350,7 +350,7 @@
 			)
 		)
 		(pin "MISO_2" output
-			(at 137.16 50.8 0)
+			(at 137.16 55.88 0)
 			(uuid "85d8e971-16c3-496d-9f92-33f151ac15f7")
 			(effects
 				(font
@@ -360,7 +360,7 @@
 			)
 		)
 		(pin "MISO_3" output
-			(at 137.16 53.34 0)
+			(at 137.16 68.58 0)
 			(uuid "75fb7a5a-6ba0-4223-a9a9-add419e86859")
 			(effects
 				(font
@@ -370,17 +370,17 @@
 			)
 		)
 		(pin "MISO_4" output
-			(at 137.16 55.88 0)
+			(at 119.38 76.2 270)
 			(uuid "f473112e-81ac-467b-94d5-f7e57d29be9f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "MOSI_0" output
-			(at 137.16 58.42 0)
+			(at 121.92 38.1 90)
 			(uuid "2cd0df28-f6e4-4390-8d66-a1e5d0a2d2d2")
 			(effects
 				(font
@@ -390,7 +390,7 @@
 			)
 		)
 		(pin "MOSI_1" output
-			(at 137.16 60.96 0)
+			(at 137.16 45.72 0)
 			(uuid "89ff75e3-6a21-4a6d-9347-4bfe7c67278d")
 			(effects
 				(font
@@ -400,7 +400,7 @@
 			)
 		)
 		(pin "MOSI_2" output
-			(at 137.16 63.5 0)
+			(at 137.16 58.42 0)
 			(uuid "d1c0199b-ec84-4d71-aa2c-aaa621804aab")
 			(effects
 				(font
@@ -410,7 +410,7 @@
 			)
 		)
 		(pin "MOSI_3" output
-			(at 137.16 66.04 0)
+			(at 137.16 71.12 0)
 			(uuid "e3292e07-6cec-47ef-8ff0-baa251182266")
 			(effects
 				(font
@@ -420,8 +420,18 @@
 			)
 		)
 		(pin "MOSI_4" output
-			(at 137.16 68.58 0)
+			(at 121.92 76.2 270)
 			(uuid "3475d2d0-fc92-4da9-b40d-911daca2e95e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK_0" output
+			(at 124.46 38.1 90)
+			(uuid "3cf0e49b-eda6-43db-9a28-8918acaf25ea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -429,48 +439,38 @@
 				(justify right)
 			)
 		)
-		(pin "SCLK_0" output
-			(at 127 76.2 270)
-			(uuid "3cf0e49b-eda6-43db-9a28-8918acaf25ea")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SCLK_1" output
-			(at 124.46 76.2 270)
+			(at 137.16 48.26 0)
 			(uuid "6c8aee4c-bd35-48bd-9268-1591e43d2c20")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SCLK_2" output
-			(at 121.92 76.2 270)
+			(at 137.16 60.96 0)
 			(uuid "b5f9cfad-bb79-42cb-8f7a-8928e43762e6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SCLK_3" output
-			(at 119.38 76.2 270)
+			(at 137.16 73.66 0)
 			(uuid "8a719601-61f0-490b-b1ed-f19fc30cdfab")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SCLK_4" output
-			(at 116.84 76.2 270)
+			(at 124.46 76.2 270)
 			(uuid "a851dbd8-7fa1-4ba7-9b84-4a9f6de10abe")
 			(effects
 				(font
