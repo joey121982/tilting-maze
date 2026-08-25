@@ -69,5 +69,16 @@ uint8_t pathStep(const Maze& maze, uint8_t i);
  */
 void generate(Maze& maze, uint32_t seed);
 
+/**
+ * @brief Serializes the maze as a single line of JSON, written one character at a time.
+ *
+ * The output is JSON object terminated by '\n'.
+ *
+ * @param maze Maze filled in by generate()
+ * @param put Character sink, called once per output character with ctx passed through
+ * @param ctx Opaque pointer handed back to put(); may be nullptr
+ */
+void writeJson(const Maze& maze, void (*put)(char, void*), void* ctx);
+
 }   // namespace MazeCore
 

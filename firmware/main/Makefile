@@ -40,7 +40,7 @@ C_SOURCES = $(shell find Core/Src \
 			Drivers/UART/Src \
 			Drivers/TLE94112/Src \
 			-name '*.c' \
-			! -name '*_template.c')
+			! -name '*_template.c' ! -name 'syscalls.c')
 
 # C++ sources
 CXX_SOURCES = 	$(shell find Core/Src \

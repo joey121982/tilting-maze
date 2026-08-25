@@ -71,11 +71,18 @@ void HAL_MspInit(void)
 
   /* System interrupt init*/
 
-  /** DISABLE: JTAG-DP Disabled and SW-DP Disabled
+  /** NOJTAG: JTAG-DP Disabled and SW-DP Enabled
   */
-  __HAL_AFIO_REMAP_SWJ_DISABLE();
+  __HAL_AFIO_REMAP_SWJ_NOJTAG();
 
   /* USER CODE BEGIN MspInit 1 */
+
+  /* Safety net: main.ioc still has SYS Debug = No_Debug, so regenerating from
+   * CubeMX would restore __HAL_AFIO_REMAP_SWJ_DISABLE() above and lock the
+   * ST-LINK out of the part again (SW-DP dies ~2ms after every reset, and
+   * recovery then needs NRST held low while connecting). Re-asserting NOJTAG
+   * here survives regeneration. Remove once SYS Debug is set to Serial Wire. */
+  __HAL_AFIO_REMAP_SWJ_NOJTAG();
 
   /* USER CODE END MspInit 1 */
 }

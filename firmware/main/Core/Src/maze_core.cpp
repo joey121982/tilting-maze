@@ -244,5 +244,65 @@ void generate(Maze& maze, uint32_t seed)
 
     solve(maze);
 }
+static inline void putStr(const char* s, void (*put)(char, void*), void* ctx)
+{
+    while (*s) {
+        put(*s++, ctx);
+    }
+}
+
+/** @brief Writes an unsigned value as decimal digits through the character sink. */
+static void putUint(uint32_t value, void (*put)(char, void*), void* ctx)
+{
+    char digits[10];
+    uint8_t n = 0;
+    do {
+        digits[n++] = (char)('0' + (value % 10));
+        value /= 10;
+    } while (value);
+
+    while (n) put(digits[--n], ctx);
+}
+
+void writeJson(const Maze& maze, void (*put)(char, void*), void* ctx)
+{
+    putStr("{\"type\":\"maze\",\"seed\":", put, ctx);
+    putUint(maze.seed, put, ctx);
+
+    putStr(",\"side\":", put, ctx);
+    putUint((uint32_t)MAZE_SIDE_LEN, put, ctx);
+
+    putStr(",\"start\":[", put, ctx);
+    putUint((uint32_t)START_COORDS.r, put, ctx);
+    put(',', ctx);
+    putUint((uint32_t)START_COORDS.c, put, ctx);
+
+    putStr("],\"goal\":[", put, ctx);
+    putUint((uint32_t)GOAL_COORDS.r, put, ctx);
+    put(',', ctx);
+    putUint((uint32_t)GOAL_COORDS.c, put, ctx);
+
+    putStr("],\"solvable\":", put, ctx);
+    putStr(maze.solvable ? "true" : "false", put, ctx);
+
+    putStr(",\"walls\":[", put, ctx);
+    for (int8_t r = 0; r < (int8_t)MAZE_SIDE_LEN; ++r) {
+        if (r) put(',', ctx);
+        put('[', ctx);
+        for (int8_t c = 0; c < (int8_t)MAZE_SIDE_LEN; ++c) {
+            if (c) put(',', ctx);
+            put(cellWall(maze, vec2(r, c)) ? '1' : '0', ctx);
+        }
+        put(']', ctx);
+    }
+
+    putStr("],\"path\":[", put, ctx);
+    for (uint8_t i = 0; i < maze.path_len; ++i) {
+        if (i) put(',', ctx);
+        put((char)('0' + pathStep(maze, i)), ctx);
+    }
+
+    putStr("]}\n", put, ctx);
+}
 
 }   // namespace MazeCore
