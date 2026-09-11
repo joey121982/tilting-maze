@@ -75,13 +75,15 @@ def test_maze_view_draws_something(app):
 
 
 def test_status_panel_is_populated(app):
+    """The status panel reflects the fields a ``status`` message actually carries."""
     assert pump_until(app, lambda: app._last_maze is not None)
+    assert pump_until(app, lambda: app.status._values["state"].cget("text") != "—")
     app.update()
 
-    seed_label = app.status._values["seed"].cget("text")
-    assert seed_label == str(app._last_maze["seed"])
-
-    assert app.status._values["solvable"].cget("text") in ("yes", "no")
+    assert app.status._values["state"].cget("text") in ("solving", "solved", "waiting")
+    assert app.status._values["tilt"].cget("text") in ("UP", "DOWN", "LEFT", "RIGHT", "NONE")
+    assert app.status._values["button"].cget("text") in ("pressed", "released")
+    assert app.status._values["diagnostics"].cget("text") == "OK"
 
 
 def test_raw_log_receives_lines(app):

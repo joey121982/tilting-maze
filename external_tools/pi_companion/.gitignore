@@ -1,5 +1,8 @@
 .vscode
 
+# Compiled C++ tool binary (built from tools/host_json_dump.cpp via tools/Makefile)
+tools/host_json_dump
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

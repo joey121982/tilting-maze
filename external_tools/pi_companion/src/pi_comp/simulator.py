@@ -149,6 +149,8 @@ class SimulatedSource:
         self.events: queue.Queue = events if events is not None else queue.Queue()
         self.step_delay: float = 0.2  # default 5 Hz
         self.pending_step_delay: float | None = None
+        self._thread: threading.Thread | None = None
+        self._stop = threading.Event()
 
     def set_step_delay(self, delay: float) -> None:
         self.pending_step_delay = max(0.02, delay)
