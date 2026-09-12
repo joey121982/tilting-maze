@@ -16,25 +16,25 @@ int main(void) {
     
     static bool emergency_stop = false;
 
-    while (1) {
-        if(HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6) == GPIO_PIN_SET) {
-            if (!emergency_stop) {
-                emergency_stop = true;
-                motor_driver.stop();
-            }
-        }
+    movement dir = UP;
 
-        if (!emergency_stop) {
-            motor_driver.M2.set_direction(UP);
-            
-            motor_driver.M1.set_direction(KEEP);
-            motor_driver.M3.set_direction(KEEP);
-            
-            motor_driver.step_motors(400, 8);
-            
-            HAL_Delay(500); 
-        }
+    motor_driver.M2.set_direction(dir);
+    
+    motor_driver.M1.set_direction(KEEP);
+    motor_driver.M3.set_direction(KEEP);
+    
+    motor_driver.step_motors(400, 8);
         
-        HAL_Delay(10); 
+    HAL_Delay(500);         
+
+
+    GPIO_PinState prev_pressed = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6);
+    if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6) == GPIO_PIN_SET && prev_pressed == GPIO_PIN_RESET) {
+        if (dir == UP) dir = DOWN;
+        else dir = UP;
+        prev_pressed = GPIO_PIN_SET;
+    }
+    else {
+        prev_pressed = GPIO_PIN_RESET;
     }
 }

@@ -924,7 +924,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 101.6) (xy 54.61 101.6)
+			(xy 87.63 121.92) (xy 95.25 121.92)
 		)
 		(stroke
 			(width 0)
@@ -934,7 +934,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 96.52) (xy 234.95 96.52)
+			(xy 185.42 96.52) (xy 194.31 96.52)
 		)
 		(stroke
 			(width 0)
@@ -944,7 +944,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 116.84) (xy 54.61 116.84)
+			(xy 87.63 137.16) (xy 95.25 137.16)
 		)
 		(stroke
 			(width 0)
@@ -964,7 +964,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 125.73) (xy 40.64 124.46)
+			(xy 81.28 146.05) (xy 81.28 144.78)
 		)
 		(stroke
 			(width 0)
@@ -974,7 +974,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 116.84) (xy 234.95 116.84)
+			(xy 185.42 116.84) (xy 194.31 116.84)
 		)
 		(stroke
 			(width 0)
@@ -984,7 +984,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 74.93) (xy 234.95 74.93)
+			(xy 185.42 74.93) (xy 194.31 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1004,7 +1004,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 124.46) (xy 54.61 124.46)
+			(xy 81.28 144.78) (xy 95.25 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1014,7 +1014,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 93.98) (xy 54.61 93.98)
+			(xy 87.63 114.3) (xy 95.25 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1024,7 +1024,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 54.61) (xy 234.95 54.61)
+			(xy 185.42 54.61) (xy 194.31 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1034,7 +1034,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 39.37) (xy 48.26 39.37)
+			(xy 80.01 59.69) (xy 88.9 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1054,7 +1054,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 121.92) (xy 234.95 121.92)
+			(xy 185.42 121.92) (xy 194.31 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1064,7 +1064,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 119.38) (xy 234.95 119.38)
+			(xy 185.42 119.38) (xy 194.31 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1084,7 +1084,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 135.89) (xy 234.95 135.89)
+			(xy 185.42 135.89) (xy 194.31 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1124,7 +1124,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 143.51) (xy 234.95 143.51)
+			(xy 185.42 143.51) (xy 194.31 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1134,7 +1134,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 138.43) (xy 234.95 138.43)
+			(xy 185.42 138.43) (xy 194.31 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1154,7 +1154,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 99.06) (xy 234.95 99.06)
+			(xy 185.42 99.06) (xy 194.31 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1164,7 +1164,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 90.17) (xy 54.61 90.17)
+			(xy 87.63 110.49) (xy 95.25 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1174,7 +1174,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 113.03) (xy 54.61 113.03)
+			(xy 87.63 133.35) (xy 95.25 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1184,7 +1184,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 59.69) (xy 234.95 59.69)
+			(xy 185.42 59.69) (xy 194.31 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1194,7 +1194,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 67.31) (xy 58.42 67.31)
+			(xy 90.17 87.63) (xy 99.06 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1204,7 +1204,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 67.31) (xy 41.91 67.31)
+			(xy 74.93 87.63) (xy 82.55 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1224,7 +1224,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 62.23) (xy 234.95 62.23)
+			(xy 185.42 62.23) (xy 194.31 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1234,7 +1234,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 101.6) (xy 234.95 101.6)
+			(xy 185.42 101.6) (xy 194.31 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1244,7 +1244,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 80.01) (xy 226.06 80.01)
+			(xy 194.31 80.01) (xy 185.42 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1254,7 +1254,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 82.55) (xy 234.95 82.55)
+			(xy 185.42 82.55) (xy 194.31 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1264,7 +1264,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 104.14) (xy 234.95 104.14)
+			(xy 185.42 104.14) (xy 194.31 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1274,7 +1274,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 77.47) (xy 234.95 77.47)
+			(xy 185.42 77.47) (xy 194.31 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1284,7 +1284,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 97.79) (xy 54.61 97.79)
+			(xy 87.63 118.11) (xy 95.25 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1304,7 +1304,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 46.99) (xy 48.26 49.53)
+			(xy 88.9 67.31) (xy 88.9 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1314,7 +1314,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 49.53) (xy 48.26 49.53)
+			(xy 80.01 69.85) (xy 88.9 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1324,7 +1324,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 120.65) (xy 54.61 120.65)
+			(xy 87.63 140.97) (xy 95.25 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1334,7 +1334,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 105.41) (xy 54.61 105.41)
+			(xy 87.63 125.73) (xy 95.25 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1344,7 +1344,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 124.46) (xy 234.95 124.46)
+			(xy 185.42 124.46) (xy 194.31 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1374,7 +1374,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 41.91) (xy 48.26 39.37)
+			(xy 88.9 62.23) (xy 88.9 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1384,7 +1384,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 109.22) (xy 54.61 109.22)
+			(xy 87.63 129.54) (xy 95.25 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1404,7 +1404,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 57.15) (xy 234.95 57.15)
+			(xy 185.42 57.15) (xy 194.31 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1414,7 +1414,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 140.97) (xy 234.95 140.97)
+			(xy 185.42 140.97) (xy 194.31 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1433,7 +1433,7 @@
 		(uuid "f5f018aa-cb02-49b8-88cd-47bee66102b4")
 	)
 	(label "MISO"
-		(at 226.06 101.6 0)
+		(at 185.42 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1453,7 +1453,7 @@
 		(uuid "154c0409-e72a-4fbe-89c7-11753971d2e1")
 	)
 	(label "CS_Y1"
-		(at 226.06 82.55 0)
+		(at 185.42 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1463,7 +1463,7 @@
 		(uuid "1e411e56-bf9a-40a4-a8c8-7656b4c7b682")
 	)
 	(label "CS_Y3"
-		(at 226.06 124.46 0)
+		(at 185.42 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1483,7 +1483,7 @@
 		(uuid "224e9715-928d-43bd-9f7b-ac2fa05d1085")
 	)
 	(label "CS_Y4"
-		(at 226.06 143.51 0)
+		(at 185.42 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1503,7 +1503,7 @@
 		(uuid "2e05a948-46a3-489c-8394-efb16dc7aa3f")
 	)
 	(label "3.3V"
-		(at 39.37 39.37 0)
+		(at 80.01 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1513,7 +1513,7 @@
 		(uuid "35751379-bf23-4376-bee1-2f003051f58f")
 	)
 	(label "MOSI"
-		(at 226.06 77.47 0)
+		(at 185.42 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1523,7 +1523,7 @@
 		(uuid "3986583c-04b7-4366-970c-21c1e3c6469e")
 	)
 	(label "MOSI"
-		(at 54.61 116.84 180)
+		(at 95.25 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1533,7 +1533,7 @@
 		(uuid "476da33f-b915-4f6d-8b15-d61c19964ab5")
 	)
 	(label "3.3V"
-		(at 54.61 93.98 180)
+		(at 95.25 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1553,7 +1553,7 @@
 		(uuid "54befdc4-57d1-493f-99ad-19c03b85ecae")
 	)
 	(label "SCLK"
-		(at 226.06 74.93 0)
+		(at 185.42 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1563,7 +1563,7 @@
 		(uuid "5b189ba3-f064-4c56-844c-8c150d787d6c")
 	)
 	(label "SCLK"
-		(at 226.06 96.52 0)
+		(at 185.42 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1573,7 +1573,7 @@
 		(uuid "6113f7fa-94f0-451f-a762-62028a737d06")
 	)
 	(label "SEL_0"
-		(at 54.61 97.79 180)
+		(at 95.25 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1593,7 +1593,7 @@
 		(uuid "67be2ab8-9129-45f2-9ed5-04e9289f1dc7")
 	)
 	(label "MOSI"
-		(at 226.06 138.43 0)
+		(at 185.42 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1603,7 +1603,7 @@
 		(uuid "6e0f3707-fcf6-45e5-aa56-b0d52915aeeb")
 	)
 	(label "CS_Y2"
-		(at 226.06 104.14 0)
+		(at 185.42 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1613,7 +1613,7 @@
 		(uuid "6eaa0718-d816-4890-a78c-20892b65a02a")
 	)
 	(label "MOSI"
-		(at 226.06 119.38 0)
+		(at 185.42 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1643,7 +1643,7 @@
 		(uuid "86972e71-4db2-472a-8298-bda63783eb3f")
 	)
 	(label "GND"
-		(at 54.61 124.46 180)
+		(at 95.25 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1653,7 +1653,7 @@
 		(uuid "8a1c1b7c-b2a8-4d89-b018-5a35cf3ee42a")
 	)
 	(label "3.3V"
-		(at 34.29 67.31 0)
+		(at 74.93 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1663,7 +1663,7 @@
 		(uuid "9086720a-449d-4d2a-b69d-da6db904d0f9")
 	)
 	(label "MOSI"
-		(at 226.06 57.15 0)
+		(at 185.42 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1673,7 +1673,7 @@
 		(uuid "a329edd2-9d67-46f6-9fe8-81e8430e3ddc")
 	)
 	(label "MISO"
-		(at 226.06 140.97 0)
+		(at 185.42 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1683,7 +1683,7 @@
 		(uuid "a5bd1a29-baa9-4d5a-95c8-184ed215f0c1")
 	)
 	(label "SCLK"
-		(at 54.61 120.65 180)
+		(at 95.25 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1693,7 +1693,7 @@
 		(uuid "a5c25dea-440b-442d-bd03-d165ac033dd4")
 	)
 	(label "MISO"
-		(at 54.61 113.03 180)
+		(at 95.25 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1713,7 +1713,7 @@
 		(uuid "a7ad4b87-dd41-4966-9819-83770d2c77f7")
 	)
 	(label "EN"
-		(at 58.42 67.31 180)
+		(at 99.06 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1723,7 +1723,7 @@
 		(uuid "a7b6af3e-6a71-4a8a-a811-5dfc244f51c7")
 	)
 	(label "SEL_2"
-		(at 54.61 105.41 180)
+		(at 95.25 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1743,7 +1743,7 @@
 		(uuid "aa7d6313-857f-45aa-ae83-538cd142aa2e")
 	)
 	(label "EN"
-		(at 54.61 90.17 180)
+		(at 95.25 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1753,7 +1753,7 @@
 		(uuid "aa9b4199-8313-473f-8fa7-902a8c8ef110")
 	)
 	(label "SCLK"
-		(at 226.06 135.89 0)
+		(at 185.42 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1773,7 +1773,7 @@
 		(uuid "ba683a07-6895-4eaa-9f39-2d05d8917b68")
 	)
 	(label "GND"
-		(at 39.37 49.53 0)
+		(at 80.01 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1783,7 +1783,7 @@
 		(uuid "bb162739-c161-4f8a-97e5-b70e81becff3")
 	)
 	(label "MISO"
-		(at 226.06 59.69 0)
+		(at 185.42 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1793,7 +1793,7 @@
 		(uuid "bc656d59-20c2-43e2-9497-9db0c1d0e461")
 	)
 	(label "SEL_1"
-		(at 54.61 101.6 180)
+		(at 95.25 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1803,7 +1803,7 @@
 		(uuid "c484847b-2832-4e35-855e-59519b4d4bf6")
 	)
 	(label "MOSI"
-		(at 226.06 99.06 0)
+		(at 185.42 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1813,7 +1813,7 @@
 		(uuid "c4f5391e-6992-4f6e-8e96-aaa0757a0bf4")
 	)
 	(label "SCLK"
-		(at 226.06 116.84 0)
+		(at 185.42 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1823,7 +1823,7 @@
 		(uuid "c6b4ddc2-f119-4e2e-a067-26247400932d")
 	)
 	(label "MISO"
-		(at 226.06 121.92 0)
+		(at 185.42 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1833,7 +1833,7 @@
 		(uuid "cc6632fa-c9fd-4190-a6e5-7faff75684ba")
 	)
 	(label "SCLK"
-		(at 226.06 54.61 0)
+		(at 185.42 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1853,7 +1853,7 @@
 		(uuid "d905977d-521a-4dec-9be2-9d7a3b8af395")
 	)
 	(label "MISO"
-		(at 226.06 80.01 0)
+		(at 185.42 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1863,7 +1863,7 @@
 		(uuid "e59d4464-733b-456a-9b86-5c7d1d49f022")
 	)
 	(label "CS_Y0"
-		(at 226.06 62.23 0)
+		(at 185.42 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1873,7 +1873,7 @@
 		(uuid "e7a17e7d-64a7-48ee-a656-6e8663b8dc93")
 	)
 	(label "CS"
-		(at 54.61 109.22 180)
+		(at 95.25 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1914,7 +1914,7 @@
 	)
 	(hierarchical_label "SCLK_0"
 		(shape output)
-		(at 234.95 54.61 0)
+		(at 194.31 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1925,7 +1925,7 @@
 	)
 	(hierarchical_label "MOSI_4"
 		(shape output)
-		(at 234.95 138.43 0)
+		(at 194.31 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1936,7 +1936,7 @@
 	)
 	(hierarchical_label "SCLK_1"
 		(shape output)
-		(at 234.95 74.93 0)
+		(at 194.31 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1947,7 +1947,7 @@
 	)
 	(hierarchical_label "CS_3"
 		(shape output)
-		(at 234.95 124.46 0)
+		(at 194.31 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1958,7 +1958,7 @@
 	)
 	(hierarchical_label "VCC"
 		(shape input)
-		(at 46.99 93.98 180)
+		(at 87.63 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1969,7 +1969,7 @@
 	)
 	(hierarchical_label "SEL_B"
 		(shape input)
-		(at 46.99 101.6 180)
+		(at 87.63 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1980,7 +1980,7 @@
 	)
 	(hierarchical_label "SCLK_3"
 		(shape output)
-		(at 234.95 116.84 0)
+		(at 194.31 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1991,7 +1991,7 @@
 	)
 	(hierarchical_label "SCLK_4"
 		(shape output)
-		(at 234.95 135.89 0)
+		(at 194.31 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2002,7 +2002,7 @@
 	)
 	(hierarchical_label "CS_2"
 		(shape output)
-		(at 234.95 104.14 0)
+		(at 194.31 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2013,7 +2013,7 @@
 	)
 	(hierarchical_label "SPI_CS"
 		(shape input)
-		(at 46.99 109.22 180)
+		(at 87.63 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2024,7 +2024,7 @@
 	)
 	(hierarchical_label "MOSI_1"
 		(shape output)
-		(at 234.95 77.47 0)
+		(at 194.31 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2035,7 +2035,7 @@
 	)
 	(hierarchical_label "SCLK_2"
 		(shape output)
-		(at 234.95 96.52 0)
+		(at 194.31 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2046,7 +2046,7 @@
 	)
 	(hierarchical_label "GLOBAL_EN"
 		(shape input)
-		(at 46.99 90.17 180)
+		(at 87.63 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2057,7 +2057,7 @@
 	)
 	(hierarchical_label "CS_4"
 		(shape output)
-		(at 234.95 143.51 0)
+		(at 194.31 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2068,7 +2068,7 @@
 	)
 	(hierarchical_label "MISO_3"
 		(shape output)
-		(at 234.95 121.92 0)
+		(at 194.31 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2079,7 +2079,7 @@
 	)
 	(hierarchical_label "CS_0"
 		(shape output)
-		(at 234.95 62.23 0)
+		(at 194.31 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2090,7 +2090,7 @@
 	)
 	(hierarchical_label "SPI_SCLK"
 		(shape input)
-		(at 46.99 120.65 180)
+		(at 87.63 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2101,7 +2101,7 @@
 	)
 	(hierarchical_label "CS_1"
 		(shape output)
-		(at 234.95 82.55 0)
+		(at 194.31 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2112,7 +2112,7 @@
 	)
 	(hierarchical_label "MOSI_2"
 		(shape output)
-		(at 234.95 99.06 0)
+		(at 194.31 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2123,7 +2123,7 @@
 	)
 	(hierarchical_label "MOSI_3"
 		(shape output)
-		(at 234.95 119.38 0)
+		(at 194.31 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2134,7 +2134,7 @@
 	)
 	(hierarchical_label "MISO_4"
 		(shape output)
-		(at 234.95 140.97 0)
+		(at 194.31 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2145,7 +2145,7 @@
 	)
 	(hierarchical_label "SEL_A"
 		(shape input)
-		(at 46.99 97.79 180)
+		(at 87.63 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2156,7 +2156,7 @@
 	)
 	(hierarchical_label "MISO_0"
 		(shape output)
-		(at 234.95 59.69 0)
+		(at 194.31 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2167,7 +2167,7 @@
 	)
 	(hierarchical_label "MISO_2"
 		(shape output)
-		(at 234.95 101.6 0)
+		(at 194.31 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2178,7 +2178,7 @@
 	)
 	(hierarchical_label "MISO_1"
 		(shape output)
-		(at 234.95 80.01 0)
+		(at 194.31 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2189,7 +2189,7 @@
 	)
 	(hierarchical_label "MOSI_0"
 		(shape output)
-		(at 234.95 57.15 0)
+		(at 194.31 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2200,7 +2200,7 @@
 	)
 	(hierarchical_label "SEL_C"
 		(shape input)
-		(at 46.99 105.41 180)
+		(at 87.63 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2210,8 +2210,8 @@
 		(uuid "f125c5ac-8def-4a45-9087-c5382ca8064d")
 	)
 	(hierarchical_label "SPI_MISO"
-		(shape input)
-		(at 46.99 113.03 180)
+		(shape output)
+		(at 87.63 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2222,7 +2222,7 @@
 	)
 	(hierarchical_label "SPI_MOSI"
 		(shape input)
-		(at 46.99 116.84 180)
+		(at 87.63 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2422,7 +2422,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 48.26 44.45 0)
+		(at 88.9 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2433,7 +2433,7 @@
 		(fields_autoplaced yes)
 		(uuid "521982c9-17a1-4887-950f-d75cab4f649c")
 		(property "Reference" "C11"
-			(at 50.8 43.1862 0)
+			(at 91.44 63.5062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2444,7 +2444,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 50.8 45.7262 0)
+			(at 91.44 66.0462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2455,7 +2455,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 48.26 44.45 0)
+			(at 88.9 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2466,7 +2466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 44.45 0)
+			(at 88.9 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2477,7 +2477,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 48.26 44.45 0)
+			(at 88.9 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2504,7 +2504,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 125.73 0)
+		(at 81.28 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2515,7 +2515,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f137166-e2b8-4408-a17c-aba068d5af66")
 		(property "Reference" "#PWR07"
-			(at 40.64 132.08 0)
+			(at 81.28 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2526,7 +2526,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 130.81 0)
+			(at 81.28 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2536,7 +2536,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 125.73 0)
+			(at 81.28 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2547,7 +2547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 125.73 0)
+			(at 81.28 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2558,7 +2558,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 125.73 0)
+			(at 81.28 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2582,7 +2582,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 45.72 67.31 270)
+		(at 86.36 87.63 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2593,7 +2593,7 @@
 		(fields_autoplaced yes)
 		(uuid "a55b979e-c2ec-4c08-a4a2-e2fa69f28920")
 		(property "Reference" "R3"
-			(at 45.72 60.96 90)
+			(at 86.36 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2603,7 +2603,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 45.72 63.5 90)
+			(at 86.36 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2613,7 +2613,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 45.466 68.326 90)
+			(at 86.106 88.646 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2624,7 +2624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 67.31 0)
+			(at 86.36 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2635,7 +2635,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 45.72 67.31 0)
+			(at 86.36 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
